@@ -1150,3 +1150,10 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.04-08.29.28:207][584]LogSequenceNavigator: Tool instance 'LevelSequenceEditor' provider 'LevelSequence' registered
 [2025.11.04-08.29.31:325][752]LogSequenceNavigator: Deactivating provider: LevelSequence
 [2025.11.04-08.29.31:328][752]LogSequenceNavigator: Provider unregistered: LevelSequence
+[2025.11.04-08.30.21:213][ 42]LogDerivedDataCache: C:/Users/usuario/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.04-08.33.42:780][647]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 318.506470
+[2025.11.04-08.33.43:779][650]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.04-08.33.43:779][650]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 319.173523, Update Interval: 349.262360
+[2025.11.04-08.39.35:527][705]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 671.253906
+[2025.11.04-08.39.36:527][708]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.04-08.39.36:527][708]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 671.919739, Update Interval: 314.681854
