@@ -2268,3 +2268,9 @@ FPackageName: Skipped package /Engine/EngineMeshes/Humanoid has a valid, mounted
 [2025.11.05-07.43.23:169][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
 [2025.11.05-07.43.23:184][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
 [2025.11.05-07.43.23:290][352]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.05-07.44.30:105][817]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 333.168823
+[2025.11.05-07.44.31:105][820]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.05-07.44.31:105][820]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 333.835571, Update Interval: 321.262848
+[2025.11.05-07.49.54:943][791]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 658.006226
+[2025.11.05-07.49.55:943][793]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.05-07.49.55:943][794]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 658.673523, Update Interval: 336.911530
