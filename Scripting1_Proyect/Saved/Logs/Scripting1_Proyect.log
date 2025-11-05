@@ -6427,3 +6427,1156 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.05-08.03.42:859][300]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.05-08.03.42:860][300]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
 [2025.11.05-08.03.42:895][300]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.05-08.03.59:509][566]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.05-08.03.59:517][566]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.05-08.03.59:517][566]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.11.05-08.03.59:518][566]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 1.244 ms
+[2025.11.05-08.03.59:520][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.05-08.03.59:525][566]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.11.05-08.03.59:526][566]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.11.05-08.03.59:526][566]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.11.05-08.03.59:535][566]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.05-08.03.59:537][566]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.915 ms
+[2025.11.05-08.03.59:537][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011150s)
+[2025.11.05-08.03.59:537][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.011281s)
+[2025.11.05-08.03.59:552][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.11.05-08.03.59:555][566]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.11.05-08.03.59:557][566]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.05-08.03.59:557][566]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.05-08.03.59:557][566]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.05-08.03.59:557][566]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.05-08.03.59:560][566]LogWorldPartition: Display: WorldPartition initialize took 2.514 ms (total: 114.845 ms)
+[2025.11.05-08.03.59:560][566]LogPlayLevel: PIE: World Init took: (0.004687s)
+[2025.11.05-08.03.59:561][566]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.11.05-08.03.59:561][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.05-08.03.59:561][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.05-08.03.59:561][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.05-08.03.59:561][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.05-08.03.59:561][566]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.05-08.03.59:561][566]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.05-08.03.59:561][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.05-08.03.59:561][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.05-08.03.59:561][566]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.05-08.03.59:561][566]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.05-08.03.59:561][566]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.05-08.03.59:563][566]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.05-08.03.59:667][566]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.11.05-08.03.59:667][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.05-08.03.59:667][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.05-08.03.59:667][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.05-08.03.59:668][566]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.11.05-08.03.59:668][566]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.11.05-08.03.59:669][566]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.11.05-08.03.59:669][566]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.11.05-08.03.59:669][566]LogInit: FAudioDevice initialized with ID 2.
+[2025.11.05-08.03.59:669][566]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_ThirdPerson'.
+[2025.11.05-08.03.59:670][566]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.11.05-08.03.59:676][566]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.05-08.03.59:679][566]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.11.05-09.03.59
+[2025.11.05-08.03.59:679][566]LogWorld: Bringing up level for play took: 0.002400
+[2025.11.05-08.03.59:681][566]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2025.11.05-08.03.59:704][566]PIE: Server logged in
+[2025.11.05-08.03.59:706][566]PIE: Play in editor total start time 0,191 seconds.
+[2025.11.05-08.03.59:778][567]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.05-08.04.18:086][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.05-08.04.18:086][608]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.11.05-08.04.18:086][608]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-08.04.18:087][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-08.04.18:087][608]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.11.05-08.04.18:089][608]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.05-08.04.18:091][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-08.04.18:104][608]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.05-08.04.18:104][608]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.11.05-08.04.18:105][608]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.11.05-08.04.18:106][608]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.11.05-08.04.18:111][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.05-08.04.18:113][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.11.05-08.04.18:140][609]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2025.11.05-08.04.28:365][208]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 668.163025
+[2025.11.05-08.04.28:532][217]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.05-08.04.28:532][217]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 668.313538, Update Interval: 331.191132
+[2025.11.05-08.04.29:013][246]LogStreaming: Display: FlushAsyncLoading(379): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: ================================================
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Total job queries 1011, among them cache hits 91 (9.00%), DDC hits 334 (33.04%), Duplicates 207 (20.47%)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Tracking 713 distinct input hashes that result in 475 distinct outputs (66.62%)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: RAM used: 5,85 MiB of 1,60 GiB budget. Usage: 0.36%
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Shaders Compiled: 379
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Jobs assigned 379, completed 379 (100%)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Average time worker was idle: 15.34 s
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Time job spent in pending queue: average 7.42 s, longest 20.92 s
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Job execution time: average 1.37 s, max 6.08 s
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Job life time (pending + execution): average 8.79 s, max 21.44
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Shader code size: total 4,256 MiB, numShaders 394, average 11,062 KiB, min 2,105 KiB, max 39,719 KiB
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 48.43 s
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.31%
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Jobs were issued in 314 batches (only local compilation was used), average 1.21 jobs/batch
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Average processing rate: 7.83 jobs/sec
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Total thread time: 301,695 s
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Total thread preprocess time: 15,066 s
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Percentage time preprocessing: 4.99%
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Effective parallelization: 6.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.622902
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled   25 times, average 1.99 sec, max 2.16 sec, min 1.43 sec)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   12 times, average 1.91 sec, max 2.87 sec, min 1.10 sec)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled   25 times, average 1.55 sec, max 1.64 sec, min 1.16 sec)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    7 times, average 1.34 sec, max 1.51 sec, min 0.94 sec)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled   12 times, average 1.15 sec, max 1.52 sec, min 0.61 sec)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 16.52% of total time (compiled   25 times, average 1.99 sec, max 2.16 sec, min 1.43 sec)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 14.99% of total time (compiled   41 times, average 1.10 sec, max 1.57 sec, min 0.66 sec)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display:                                                 FLumenCardCS - 12.82% of total time (compiled   25 times, average 1.55 sec, max 1.64 sec, min 1.16 sec)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.58% of total time (compiled   12 times, average 1.91 sec, max 2.87 sec, min 1.10 sec)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.56% of total time (compiled   41 times, average 0.56 sec, max 0.94 sec, min 0.36 sec)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: === Material stats ===
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Materials Translated:    203
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Material Total Translate Time: 0.14 s
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Material Translation Only: 0.06 s (39%)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: Material Cache Hits: 22 (11%)
+[2025.11.05-08.05.24:374][988]LogShaderCompilers: Display: ================================================
+[2025.11.05-08.05.32:837][209]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2025.11.05-08.07.11:845][915]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Wall/SM_big_wall_01.SM_big_wall_01
+[2025.11.05-08.07.11:845][915]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Wall/SM_big_wall_01.SM_big_wall_01
+[2025.11.05-08.07.11:846][915]LogActorFactory: Actor Factory spawned StaticMesh /Game/Castle/Palace/Wall/SM_big_wall_01.SM_big_wall_01 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_0
+[2025.11.05-08.07.12:637][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.11.05-08.07.12:640][961]LogEditorActor: Deleted 0 Actors (0.028 secs)
+[2025.11.05-08.07.12:645][961]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Wall/SM_big_wall_01.SM_big_wall_01
+[2025.11.05-08.07.12:645][961]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Wall/SM_big_wall_01.SM_big_wall_01
+[2025.11.05-08.07.12:646][961]LogActorFactory: Actor Factory spawned StaticMesh /Game/Castle/Palace/Wall/SM_big_wall_01.SM_big_wall_01 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_CC28AA4A81E1329F02_1143736200
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: ================================================
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Total job queries 1014, among them cache hits 91 (8.97%), DDC hits 334 (32.94%), Duplicates 207 (20.41%)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Tracking 716 distinct input hashes that result in 476 distinct outputs (66.48%)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: RAM used: 5,86 MiB of 1,60 GiB budget. Usage: 0.36%
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Shaders Compiled: 382
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Jobs assigned 382, completed 382 (100%)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Average time worker was idle: 15.77 s
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Time job spent in pending queue: average 7.36 s, longest 20.92 s
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Job execution time: average 1.37 s, max 6.08 s
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Job life time (pending + execution): average 8.73 s, max 21.44
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Shader code size: total 4,294 MiB, numShaders 400, average 10,993 KiB, min 2,105 KiB, max 39,719 KiB
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 51.61 s
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.31%
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Jobs were issued in 317 batches (only local compilation was used), average 1.21 jobs/batch
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Average processing rate: 7.40 jobs/sec
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Total thread time: 304,308 s
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Total thread preprocess time: 15,123 s
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Percentage time preprocessing: 4.97%
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Effective parallelization: 5.90 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.589660
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled   25 times, average 1.99 sec, max 2.16 sec, min 1.43 sec)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   12 times, average 1.91 sec, max 2.87 sec, min 1.10 sec)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled   25 times, average 1.55 sec, max 1.64 sec, min 1.16 sec)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    7 times, average 1.34 sec, max 1.51 sec, min 0.94 sec)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled   12 times, average 1.15 sec, max 1.52 sec, min 0.61 sec)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 16.38% of total time (compiled   25 times, average 1.99 sec, max 2.16 sec, min 1.43 sec)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 14.86% of total time (compiled   41 times, average 1.10 sec, max 1.57 sec, min 0.66 sec)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display:                                                 FLumenCardCS - 12.71% of total time (compiled   25 times, average 1.55 sec, max 1.64 sec, min 1.16 sec)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.51% of total time (compiled   12 times, average 1.91 sec, max 2.87 sec, min 1.10 sec)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.50% of total time (compiled   41 times, average 0.56 sec, max 0.94 sec, min 0.36 sec)
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: === Material stats ===
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Materials Translated:    203
+[2025.11.05-08.08.24:378][688]LogShaderCompilers: Display: Material Total Translate Time: 0.14 s
+[2025.11.05-08.08.24:379][688]LogShaderCompilers: Display: Material Translation Only: 0.06 s (39%)
+[2025.11.05-08.08.24:379][688]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.05-08.08.24:379][688]LogShaderCompilers: Display: Material Cache Hits: 22 (11%)
+[2025.11.05-08.08.24:379][688]LogShaderCompilers: Display: ================================================
+[2025.11.05-08.09.14:645][766]Cmd: EDIT PASTE
+[2025.11.05-08.09.42:640][269]Cmd: EDIT PASTE
+[2025.11.05-08.10.03:999][512]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1003.796692
+[2025.11.05-08.10.04:150][521]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.05-08.10.04:150][521]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1003.929382, Update Interval: 329.533997
+[2025.11.05-08.10.05:924][628]Cmd: DELETE
+[2025.11.05-08.10.05:924][628]Cmd: ACTOR DELETE
+[2025.11.05-08.10.05:926][628]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2025.11.05-08.10.05:952][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.11.05-08.10.05:954][628]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.11.05-08.10.10:750][915]Cmd: DELETE
+[2025.11.05-08.10.10:750][915]Cmd: ACTOR DELETE
+[2025.11.05-08.10.10:752][915]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2025.11.05-08.10.10:765][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.11.05-08.10.10:767][915]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2025.11.05-08.10.14:299][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-08.10.14:363][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.11.05-08.10.14:376][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.11.05-08.10.14:404][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.11.05-08.10.14:416][127]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/QO/BM7W3S5H7TFTLE2W856MU0
+[2025.11.05-08.10.14:416][127]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BM7W3S5H7TFTLE2W856MU0B7EB5C4946FE3C9DA794E3B316DCF182.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/QO/BM7W3S5H7TFTLE2W856MU0.uasset'
+[2025.11.05-08.10.14:427][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.653 ms (total: 277.828 ms)
+[2025.11.05-08.10.14:487][127]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-08.10.14:487][127]LogContentValidation: Enabled validators:
+[2025.11.05-08.10.14:487][127]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-08.10.14:487][127]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-08.10.14:487][127]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-08.10.14:487][127]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-08.10.14:487][127]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-08.10.14:487][127]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-08.10.14:487][127]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2025.11.05-08.10.14:509][127]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.05-08.12.21:567][981]Cmd: EDIT PASTE
+[2025.11.05-08.12.21:568][981]LogStreaming: Display: FlushAsyncLoading(380): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-08.12.21:808][981]LogNiagaraEditor: Niagara graph NiagaraGraph /Niagara/Modules/Update/Material/DynamicMaterialParameters.DynamicMaterialParameters:NiagaraScriptSource_3.NiagaraGraph_0: The default value declaration for the variable 'Module.Index0Float3Write' is not consistent between the graph and the metadata.
+  Either change the default mode to 'custom' or check the input pins in the parameter map get node in the graph.
+[2025.11.05-08.12.21:808][981]LogNiagaraEditor: Niagara graph NiagaraGraph /Niagara/Modules/Update/Material/DynamicMaterialParameters.DynamicMaterialParameters:NiagaraScriptSource_3.NiagaraGraph_0: The default value declaration for the variable 'Module.Index1Float3Write' is not consistent between the graph and the metadata.
+  Either change the default mode to 'custom' or check the input pins in the parameter map get node in the graph.
+[2025.11.05-08.12.21:871][981]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.21:914][981]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.21:945][981]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.21:946][981]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.21:956][981]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.21:957][981]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.21:967][981]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.21:968][981]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.22:105][983]LogNiagara: Compiling System NiagaraSystem /Game/Castle/VFX/Niagara/NS_Fire_Torch.NS_Fire_Torch took 0.233523 sec (time since issued).
+[2025.11.05-08.12.25:590][158]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:591][158]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:615][159]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:616][159]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:638][160]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:639][160]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:662][161]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:664][161]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:688][162]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:689][162]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:712][163]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:713][163]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:735][164]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:736][164]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:759][165]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:761][165]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:784][166]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:785][166]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:808][167]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:809][167]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:832][168]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:832][168]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:855][169]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:856][169]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:879][170]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:880][170]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:902][171]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:905][171]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:927][172]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:928][172]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:951][173]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:953][173]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:976][174]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.25:977][174]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:000][175]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:001][175]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:024][176]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:025][176]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:050][177]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:051][177]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:073][178]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:074][178]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:097][179]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:099][179]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:122][180]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:123][180]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:146][181]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:147][181]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:170][182]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:171][182]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:194][183]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:196][183]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:219][184]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:220][184]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:243][185]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:244][185]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:268][186]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:269][186]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:292][187]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:293][187]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:316][188]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:317][188]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:340][189]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:341][189]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:367][190]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:369][190]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:393][191]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:395][191]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:419][192]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:420][192]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:445][193]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:446][193]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:469][194]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:471][194]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:491][195]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.26:492][195]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:731][718]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:733][718]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:755][719]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:757][719]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:779][720]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:780][720]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:803][721]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:805][721]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:828][722]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:829][722]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:852][723]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:854][723]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:878][724]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:880][724]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:901][725]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:903][725]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:926][726]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:927][726]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:951][727]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:952][727]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:977][728]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.39:979][728]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:002][729]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:005][729]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:142][737]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:144][737]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:167][738]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:168][738]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:190][739]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:191][739]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:215][740]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:216][740]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:239][741]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:240][741]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:264][742]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:266][742]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:289][743]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:290][743]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:312][744]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:314][744]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:338][745]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:339][745]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:362][746]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:364][746]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:554][757]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.40:555][757]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:744][931]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:745][931]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:770][932]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:771][932]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:795][933]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:797][933]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:819][934]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:821][934]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:843][935]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:846][935]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:869][936]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:870][936]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:892][937]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:894][937]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:916][938]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:917][938]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:941][939]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:942][939]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:967][940]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:968][940]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:991][941]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.43:992][941]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:017][942]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:018][942]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:043][943]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:045][943]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:067][944]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:069][944]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:091][945]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:092][945]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:117][946]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:118][946]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:141][947]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:142][947]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:166][948]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:167][948]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:207][950]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:208][950]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:231][951]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:232][951]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:271][953]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:272][953]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:310][955]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:311][955]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:350][957]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:351][957]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:373][958]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:375][958]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:398][959]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:399][959]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:422][960]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:424][960]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:448][961]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:449][961]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:474][962]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:475][962]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:501][963]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:502][963]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:527][964]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:528][964]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:552][965]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:553][965]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:577][966]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:578][966]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:601][967]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:602][967]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:630][968]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:631][968]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:672][970]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:672][970]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:712][972]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:713][972]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:752][974]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:754][974]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:778][975]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:779][975]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:804][976]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:805][976]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:877][980]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:879][980]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:902][981]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:904][981]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:944][983]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:945][983]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:969][984]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:970][984]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:993][985]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.44:995][985]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:018][986]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:019][986]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:074][989]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:075][989]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:098][990]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:099][990]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:122][991]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:125][991]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:148][992]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:150][992]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:171][993]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:172][993]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:198][994]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:199][994]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:222][995]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:224][995]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:248][996]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:250][996]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:274][997]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:275][997]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:301][998]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:302][998]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:326][999]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:327][999]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:351][  0]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:352][  0]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:377][  1]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:378][  1]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:402][  2]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:402][  2]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:426][  3]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:427][  3]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:452][  4]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:453][  4]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:475][  5]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:476][  5]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:500][  6]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:502][  6]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:891][ 29]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:892][ 29]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:997][ 35]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.45:998][ 35]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:022][ 36]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:022][ 36]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:046][ 37]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:048][ 37]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:087][ 39]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:088][ 39]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:114][ 40]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:115][ 40]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:139][ 41]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:140][ 41]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:163][ 42]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:165][ 42]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:204][ 44]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:205][ 44]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:228][ 45]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:230][ 45]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:253][ 46]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:254][ 46]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:294][ 48]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:295][ 48]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:318][ 49]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:320][ 49]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:344][ 50]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:346][ 50]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:387][ 52]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:388][ 52]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:411][ 53]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:412][ 53]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:435][ 54]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:437][ 54]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:460][ 55]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:462][ 55]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:499][ 57]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:500][ 57]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:523][ 58]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:525][ 58]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:547][ 59]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:549][ 59]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:572][ 60]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:574][ 60]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:614][ 62]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:616][ 62]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:638][ 63]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:639][ 63]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:695][ 66]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:697][ 66]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:719][ 67]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:720][ 67]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:746][ 68]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:747][ 68]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:770][ 69]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:771][ 69]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:795][ 70]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:796][ 70]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:837][ 72]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:838][ 72]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:944][ 78]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:946][ 78]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:971][ 79]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.46:972][ 79]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:012][ 81]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:012][ 81]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:120][ 87]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:121][ 87]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:160][ 89]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:161][ 89]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:185][ 90]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:186][ 90]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:211][ 91]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:212][ 91]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:335][ 98]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:336][ 98]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:375][100]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:376][100]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:401][101]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:402][101]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:509][107]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:510][107]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:565][110]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:567][110]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:823][125]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.47:824][125]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.52:394][383]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.52:395][383]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.52:499][389]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.52:501][389]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.52:907][413]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.52:908][413]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.53:696][460]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.53:697][460]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.54:603][514]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.54:604][514]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.55:027][539]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.12.55:028][539]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:770][933]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:771][933]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:795][934]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:796][934]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:821][935]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:822][935]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:845][936]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:846][936]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:869][937]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:870][937]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:895][938]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:896][938]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:919][939]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:921][939]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:943][940]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:945][940]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:969][941]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:970][941]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:994][942]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.19:995][942]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:019][943]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:020][943]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:046][944]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:047][944]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:072][945]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:073][945]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:095][946]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:096][946]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:121][947]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:122][947]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:146][948]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:147][948]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:171][949]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:173][949]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:198][950]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:200][950]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:224][951]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:225][951]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:249][952]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:250][952]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:272][953]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:273][953]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:299][954]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:300][954]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:325][955]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:326][955]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:351][956]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:352][956]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:376][957]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:377][957]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:400][958]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:401][958]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:426][959]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:427][959]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:450][960]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:451][960]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:476][961]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:477][961]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:502][962]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:503][962]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:528][963]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:529][963]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:553][964]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:554][964]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:578][965]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:580][965]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:604][966]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:606][966]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:630][967]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:631][967]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:656][968]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:657][968]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:681][969]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:681][969]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:721][971]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:722][971]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:746][972]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:747][972]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:771][973]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:773][973]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:797][974]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:798][974]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:825][975]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:826][975]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:851][976]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:852][976]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:876][977]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:877][977]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:981][983]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.20:983][983]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:711][968]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:712][968]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:735][969]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:736][969]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:761][970]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:762][970]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:788][971]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:789][971]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:814][972]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:815][972]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:838][973]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:840][973]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:864][974]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:866][974]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:890][975]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:891][975]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:915][976]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:916][976]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:940][977]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:942][977]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:982][979]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.37:984][979]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:007][980]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:008][980]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:034][981]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:035][981]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:058][982]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:059][982]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:083][983]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:086][983]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:125][985]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:126][985]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:148][986]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:150][986]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:175][987]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:176][987]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:200][988]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:201][988]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:224][989]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:225][989]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:250][990]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:251][990]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:276][991]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:277][991]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:303][992]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:305][992]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:329][993]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:330][993]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:355][994]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:356][994]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:382][995]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:383][995]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:424][997]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:425][997]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:450][998]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:451][998]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:475][999]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:476][999]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:500][  0]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:501][  0]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:526][  1]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:528][  1]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:552][  2]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:553][  2]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:607][  5]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:609][  5]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:634][  6]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:635][  6]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:691][  9]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:692][  9]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:715][ 10]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:716][ 10]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:741][ 11]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:742][ 11]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:897][ 20]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.38:898][ 20]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.44:917][365]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.44:918][365]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.44:942][366]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.44:944][366]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.44:969][367]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.44:970][367]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.44:994][368]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.44:996][368]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:022][369]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:024][369]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:048][370]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:049][370]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:090][372]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:091][372]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:147][375]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:148][375]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:172][376]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:174][376]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:199][377]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:200][377]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:227][378]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:228][378]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:255][379]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.45:256][379]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.46:079][428]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.46:081][428]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.46:121][430]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.46:122][430]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.46:562][456]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.46:564][456]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.47:579][514]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.47:580][514]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.47:687][520]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.47:688][520]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.47:727][522]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.47:728][522]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.48:670][578]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.48:671][578]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.48:694][579]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.48:695][579]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.49:334][617]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.49:335][617]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.13.57:456][ 99]Cmd: DELETE
+[2025.11.05-08.13.57:456][ 99]Cmd: ACTOR DELETE
+[2025.11.05-08.13.57:460][ 99]LogEditorActor: Deleted Actor: BP_Big_Tower_01_C
+[2025.11.05-08.13.57:509][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.11.05-08.13.57:512][ 99]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2025.11.05-08.13.58:824][173]Cmd: DELETE
+[2025.11.05-08.13.58:825][173]Cmd: ACTOR DELETE
+[2025.11.05-08.13.58:826][173]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.05-08.13.58:838][173]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.11.05-08.13.58:840][173]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: ================================================
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Total job queries 1032, among them cache hits 97 (9.40%), DDC hits 340 (32.95%), Duplicates 207 (20.06%)
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Tracking 728 distinct input hashes that result in 487 distinct outputs (66.90%)
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: RAM used: 6,01 MiB of 1,60 GiB budget. Usage: 0.37%
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Shaders Compiled: 388
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Jobs assigned 388, completed 388 (100%)
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Average time worker was idle: 24.52 s
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Time job spent in pending queue: average 7.25 s, longest 20.92 s
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Job execution time: average 1.36 s, max 6.08 s
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Job life time (pending + execution): average 8.61 s, max 21.44
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Shader code size: total 4,371 MiB, numShaders 406, average 11,024 KiB, min 2,105 KiB, max 39,719 KiB
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 52.58 s
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.30%
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Jobs were issued in 323 batches (only local compilation was used), average 1.20 jobs/batch
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Average processing rate: 7.38 jobs/sec
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Total thread time: 307,895 s
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Total thread preprocess time: 15,327 s
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Percentage time preprocessing: 4.98%
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Effective parallelization: 5.86 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.585547
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled   25 times, average 1.99 sec, max 2.16 sec, min 1.43 sec)
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   12 times, average 1.91 sec, max 2.87 sec, min 1.10 sec)
+[2025.11.05-08.14.24:390][701]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled   25 times, average 1.55 sec, max 1.64 sec, min 1.16 sec)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    7 times, average 1.34 sec, max 1.51 sec, min 0.94 sec)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled   12 times, average 1.15 sec, max 1.52 sec, min 0.61 sec)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 16.19% of total time (compiled   25 times, average 1.99 sec, max 2.16 sec, min 1.43 sec)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 14.69% of total time (compiled   41 times, average 1.10 sec, max 1.57 sec, min 0.66 sec)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display:                                                 FLumenCardCS - 12.56% of total time (compiled   25 times, average 1.55 sec, max 1.64 sec, min 1.16 sec)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.92% of total time (compiled   44 times, average 0.55 sec, max 0.94 sec, min 0.36 sec)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.43% of total time (compiled   12 times, average 1.91 sec, max 2.87 sec, min 1.10 sec)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display: === Material stats ===
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display: Materials Translated:    206
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display: Material Translation Only: 0.06 s (39%)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display: Material Cache Hits: 22 (11%)
+[2025.11.05-08.14.24:391][701]LogShaderCompilers: Display: ================================================
+[2025.11.05-08.15.32:691][602]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.11.05-08.15.32:700][602]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.11.05-08.15.32:708][602]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.11.05-08.15.32:729][603]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.11.05-08.15.46:371][422]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Automatic
+[2025.11.05-08.15.46:380][422]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.11.05-08.15.47:264][471]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_Automatic.BP_Automatic
+[2025.11.05-08.15.47:265][471]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.11.05-08.15.47:509][471]LogStreaming: Display: FlushAsyncLoading(381): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-08.15.49:642][517]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1349.443237
+[2025.11.05-08.15.49:828][527]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.05-08.15.49:828][527]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1349.612793, Update Interval: 334.778290
+[2025.11.05-08.16.06:967][530]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-08.16.07:032][530]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/BP_Automatic] ([2] browsable assets)...
+[2025.11.05-08.16.07:032][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Automatic]
+[2025.11.05-08.16.07:032][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Automatic" FILE="../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/BP/BP_Automatic.uasset" SILENT=true
+[2025.11.05-08.16.07:045][530]LogSavePackage: Moving output files for package: /Game/BP/BP_Automatic
+[2025.11.05-08.16.07:045][530]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BP_Automatic9ED3697D4DAA735038F88CAAEBCDB08F.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/BP/BP_Automatic.uasset'
+[2025.11.05-08.16.07:058][530]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.208 ms (total: 368.036 ms)
+[2025.11.05-08.16.07:119][530]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-08.16.07:119][530]LogContentValidation: Enabled validators:
+[2025.11.05-08.16.07:119][530]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-08.16.07:119][530]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-08.16.07:119][530]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-08.16.07:119][530]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-08.16.07:119][530]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-08.16.07:119][530]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-08.16.07:119][530]AssetCheck: /Game/BP/BP_Automatic Validating asset
+[2025.11.05-08.16.07:146][530]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.05-08.16.44:825][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.11.05-08.17.54:598][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.11.05-08.17.54:599][ 12]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.020
+[2025.11.05-08.17.54:600][ 12]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP/BP_Automatic] ([2] browsable assets)...
+[2025.11.05-08.17.54:600][ 12]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.11.05-08.17.54:641][ 12]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_Automatic.BP_Automatic]
+[2025.11.05-08.17.54:641][ 12]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_Automatic]
+[2025.11.05-08.17.54:654][ 12]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP/BP_Automatic_Auto1
+[2025.11.05-08.17.54:654][ 12]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BP_Automatic_Auto1FFAF78CD4B23AC2D0F5804A32136F8B2.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/Autosaves/Game/BP/BP_Automatic_Auto1.uasset'
+[2025.11.05-08.17.54:655][ 12]LogFileHelpers: Auto-saving content packages took 0.055
+[2025.11.05-08.18.37:655][396]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.11.05-08.18.37:664][396]LogActor: Loaded Actor (torch1_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.18.37:665][396]LogActor: Loaded Actor (torch2_GEN_VARIABLE_BP_torch_01_C_CAT) with IsValid() == false
+[2025.11.05-08.18.39:419][496]LogContentBrowser: Attempting asset rename: BP_Automatic -> BP_Automatic
+[2025.11.05-08.18.46:069][883]LogContentBrowser: Attempting asset rename: BP_Automatic -> BP_AutomaticDoor
+[2025.11.05-08.18.46:182][883]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-08.18.46:182][883]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP/BP_AutomaticDoor] ([2] browsable assets)...
+[2025.11.05-08.18.46:182][883]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_AutomaticDoor]
+[2025.11.05-08.18.46:182][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_AutomaticDoor" FILE="../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/BP/BP_AutomaticDoor.uasset" SILENT=true
+[2025.11.05-08.18.46:190][883]LogSavePackage: Moving output files for package: /Game/BP/BP_AutomaticDoor
+[2025.11.05-08.18.46:190][883]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BP_AutomaticDoor620865394053DBC56170E4A1365C4921.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/BP/BP_AutomaticDoor.uasset'
+[2025.11.05-08.18.46:197][883]LogFileHelpers: InternalPromptForCheckoutAndSave took 15.134 ms (total: 383.170 ms)
+[2025.11.05-08.18.46:236][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.11.05-08.18.46:258][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.11.05-08.18.46:280][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.11.05-08.18.46:354][883]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-08.18.46:354][883]LogContentValidation: Enabled validators:
+[2025.11.05-08.18.46:354][883]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-08.18.46:354][883]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-08.18.46:354][883]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-08.18.46:354][883]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-08.18.46:354][883]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-08.18.46:354][883]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-08.18.46:354][883]AssetCheck: /Game/BP/BP_AutomaticDoor Validating asset
+[2025.11.05-08.18.46:361][883]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.11.05-08.18.46:394][883]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.05-08.21.53:573][478]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1713.367310
+[2025.11.05-08.21.54:573][481]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.05-08.21.54:573][481]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1714.033936, Update Interval: 317.858826
+[2025.11.05-08.22.15:106][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.11.05-08.22.41:487][778]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.11.05-08.24.52:803][817]LogBlueprint: Error: [AssetLog] C:\Users\usuario\Documents\GitHub\Scripting1_Proyect\Scripting1_Proyect\Content\BP\BP_AutomaticDoor.uasset: [Compiler] This blueprint (self) is not a MovieSceneSequencePlayer, therefore ' Target ' must have a connection.
+[2025.11.05-08.24.52:803][817]LogBlueprint: Error: [AssetLog] C:\Users\usuario\Documents\GitHub\Scripting1_Proyect\Scripting1_Proyect\Content\BP\BP_AutomaticDoor.uasset: [Compiler] This blueprint (self) is not a MovieSceneSequencePlayer, therefore ' Target ' must have a connection.
+[2025.11.05-08.24.52:807][817]LogStreaming: Display: FlushAsyncLoading(557): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-08.24.52:854][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.11.05-08.25.10:116][844]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-08.25.10:191][844]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP/BP_AutomaticDoor] ([2] browsable assets)...
+[2025.11.05-08.25.10:242][844]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor]
+[2025.11.05-08.25.10:242][844]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_AutomaticDoor]
+[2025.11.05-08.25.10:242][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_AutomaticDoor" FILE="../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/BP/BP_AutomaticDoor.uasset" SILENT=true
+[2025.11.05-08.25.10:253][844]LogSavePackage: Moving output files for package: /Game/BP/BP_AutomaticDoor
+[2025.11.05-08.25.10:254][844]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BP_AutomaticDoor6041E95B461CA818295EE698E7D92001.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/BP/BP_AutomaticDoor.uasset'
+[2025.11.05-08.25.10:265][844]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.474 ms (total: 531.645 ms)
+[2025.11.05-08.25.10:334][844]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-08.25.10:334][844]LogContentValidation: Enabled validators:
+[2025.11.05-08.25.10:334][844]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-08.25.10:334][844]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-08.25.10:334][844]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-08.25.10:334][844]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-08.25.10:334][844]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-08.25.10:334][844]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-08.25.10:334][844]AssetCheck: /Game/BP/BP_AutomaticDoor Validating asset
+[2025.11.05-08.25.11:151][885]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor_C
+[2025.11.05-08.25.11:151][885]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor_C
+[2025.11.05-08.25.11:152][885]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor as actor: BP_AutomaticDoor_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_AutomaticDoor_C_0
+[2025.11.05-08.25.11:153][885]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor as actor: BP_AutomaticDoor_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_AutomaticDoor_C_0
+[2025.11.05-08.25.11:157][885]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.11.05-08.25.11:983][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.11.05-08.25.12:006][933]LogEditorActor: Deleted 0 Actors (0.045 secs)
+[2025.11.05-08.25.12:013][933]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor_C
+[2025.11.05-08.25.12:013][933]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor_C
+[2025.11.05-08.25.12:016][933]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor as actor: BP_AutomaticDoor_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_AutomaticDoor_C_UAID_CC28AA4A81E1339F02_1149362942
+[2025.11.05-08.25.12:017][933]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor as actor: BP_AutomaticDoor_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_AutomaticDoor_C_UAID_CC28AA4A81E1339F02_1149362942
+[2025.11.05-08.25.17:867][280]Cmd: TRANSACTION UNDO
+[2025.11.05-08.25.17:867][280]LogEditorTransaction: Undo Place Objects
+[2025.11.05-08.25.26:072][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.11.05-08.25.30:493][984]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-08.25.30:555][984]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP/BP_AutomaticDoor] ([2] browsable assets)...
+[2025.11.05-08.25.30:562][984]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor]
+[2025.11.05-08.25.30:562][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/BP_AutomaticDoor]
+[2025.11.05-08.25.30:562][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_AutomaticDoor" FILE="../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/BP/BP_AutomaticDoor.uasset" SILENT=true
+[2025.11.05-08.25.30:575][984]LogSavePackage: Moving output files for package: /Game/BP/BP_AutomaticDoor
+[2025.11.05-08.25.30:576][984]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BP_AutomaticDoorDFFE4C834BA139637317A49788F13E26.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/BP/BP_AutomaticDoor.uasset'
+[2025.11.05-08.25.30:586][984]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.564 ms (total: 624.209 ms)
+[2025.11.05-08.25.30:665][984]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-08.25.30:665][984]LogContentValidation: Enabled validators:
+[2025.11.05-08.25.30:665][984]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-08.25.30:665][984]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-08.25.30:665][984]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-08.25.30:665][984]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-08.25.30:665][984]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-08.25.30:665][984]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-08.25.30:665][984]AssetCheck: /Game/BP/BP_AutomaticDoor Validating asset
+[2025.11.05-08.25.35:118][227]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor_C
+[2025.11.05-08.25.35:118][227]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor_C
+[2025.11.05-08.25.35:120][227]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor as actor: BP_AutomaticDoor_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_AutomaticDoor_C_1
+[2025.11.05-08.25.35:122][227]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor as actor: BP_AutomaticDoor_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_AutomaticDoor_C_1
+[2025.11.05-08.25.35:789][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.11.05-08.25.35:813][265]LogEditorActor: Deleted 0 Actors (0.046 secs)
+[2025.11.05-08.25.35:821][265]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor_C
+[2025.11.05-08.25.35:821][265]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor_C
+[2025.11.05-08.25.35:824][265]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor as actor: BP_AutomaticDoor_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_AutomaticDoor_C_UAID_CC28AA4A81E1339F02_1173170943
+[2025.11.05-08.25.35:827][265]LogActorFactory: Actor Factory spawned Blueprint /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor as actor: BP_AutomaticDoor_C /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_AutomaticDoor_C_UAID_CC28AA4A81E1339F02_1173170943
+[2025.11.05-08.25.44:972][784]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.05-08.25.44:978][784]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.05-08.25.44:978][784]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.11.05-08.25.44:979][784]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 1.011 ms (total: 2.255 ms)
+[2025.11.05-08.25.44:981][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.05-08.25.44:982][784]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.11.05-08.25.44:992][784]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.05-08.25.44:993][784]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.191 ms (total: 4.107 ms)
+[2025.11.05-08.25.44:993][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011558s)
+[2025.11.05-08.25.44:993][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.011591s)
+[2025.11.05-08.25.45:014][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.11.05-08.25.45:019][784]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.11.05-08.25.45:021][784]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.05-08.25.45:021][784]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.05-08.25.45:021][784]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.05-08.25.45:021][784]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.05-08.25.45:024][784]LogWorldPartition: Display: WorldPartition initialize took 2.523 ms (total: 117.368 ms)
+[2025.11.05-08.25.45:024][784]LogPlayLevel: PIE: World Init took: (0.004350s)
+[2025.11.05-08.25.45:024][784]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.11.05-08.25.45:024][784]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.05-08.25.45:024][784]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.05-08.25.45:024][784]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.05-08.25.45:024][784]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.05-08.25.45:024][784]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.05-08.25.45:024][784]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.05-08.25.45:024][784]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.05-08.25.45:024][784]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.05-08.25.45:024][784]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.05-08.25.45:024][784]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.05-08.25.45:024][784]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.05-08.25.45:027][784]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.05-08.25.45:138][784]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.11.05-08.25.45:139][784]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.05-08.25.45:139][784]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.05-08.25.45:139][784]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.05-08.25.45:139][784]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.11.05-08.25.45:139][784]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.11.05-08.25.45:141][784]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.11.05-08.25.45:141][784]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.11.05-08.25.45:141][784]LogInit: FAudioDevice initialized with ID 3.
+[2025.11.05-08.25.45:141][784]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_ThirdPerson'.
+[2025.11.05-08.25.45:141][784]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.11.05-08.25.45:152][784]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.05-08.25.45:155][784]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.11.05-09.25.45
+[2025.11.05-08.25.45:155][784]LogWorld: Bringing up level for play took: 0.002514
+[2025.11.05-08.25.45:157][784]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.11.05-08.25.45:165][784]PIE: Server logged in
+[2025.11.05-08.25.45:167][784]PIE: Play in editor total start time 0,189 seconds.
+[2025.11.05-08.25.45:213][785]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.05-08.25.51:646][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.05-08.25.51:646][158]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.11.05-08.25.51:646][158]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-08.25.51:647][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-08.25.51:647][158]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.11.05-08.25.51:650][158]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.05-08.25.51:653][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-08.25.51:672][158]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.05-08.25.51:672][158]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.11.05-08.25.51:672][158]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.11.05-08.25.51:674][158]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.11.05-08.25.51:677][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.05-08.25.51:680][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.11.05-08.25.51:727][159]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.11.05-08.25.55:763][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-08.25.55:847][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.11.05-08.25.55:872][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.11.05-08.25.55:897][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.11.05-08.25.55:911][384]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/ZH/E7H4HOXN6B98XP6X1KIBF8
+[2025.11.05-08.25.55:911][384]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/E7H4HOXN6B98XP6X1KIBF84E2F1BE54F2B953BC7230E9BBDB6DA9D.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/ZH/E7H4HOXN6B98XP6X1KIBF8.uasset'
+[2025.11.05-08.25.55:923][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 160.519 ms (total: 784.729 ms)
+[2025.11.05-08.25.55:986][384]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-08.25.55:986][384]LogContentValidation: Enabled validators:
+[2025.11.05-08.25.55:986][384]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-08.25.55:986][384]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-08.25.55:986][384]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-08.25.55:986][384]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-08.25.55:986][384]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-08.25.55:986][384]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-08.25.55:986][384]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2025.11.05-08.25.56:014][384]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.05-08.26.18:727][734]LogStreaming: Display: FlushAsyncLoading(558): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-08.26.18:758][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.11.05-08.26.18:902][734]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.11.05-08.26.18:915][734]LogSlate: Took 0.011319 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.11.05-08.26.19:970][734]LogSlate: Window 'Delete Assets' being destroyed
+[2025.11.05-08.26.20:012][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.11.05-08.26.20:039][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.11.05-08.26.20:067][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.11.05-08.26.33:429][495]LogContentBrowser: Deferred new asset file creation: NewLevelSequence
+[2025.11.05-08.26.33:437][495]LogContentBrowser: Creating deferred item: NewLevelSequence
+[2025.11.05-08.26.33:467][497]LogContentBrowser: Renaming the item being created (Deferred Item: NewLevelSequence).
+[2025.11.05-08.26.45:257][205]LogContentBrowser: Attempting asset rename: NewLevelSequence -> AutomaticDoor
+[2025.11.05-08.26.45:258][205]LogContentBrowser: End creating deferred item NewLevelSequence
+[2025.11.05-08.26.47:237][323]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-08.26.47:291][323]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelSequence/AutomaticDoor] ([1] browsable assets)...
+[2025.11.05-08.26.47:291][323]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelSequence/AutomaticDoor]
+[2025.11.05-08.26.47:302][323]LogSavePackage: Moving output files for package: /Game/LevelSequence/AutomaticDoor
+[2025.11.05-08.26.47:302][323]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/AutomaticDoor918C5B1B46E39361A1BFFF84473ED2D8.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/LevelSequence/AutomaticDoor.uasset'
+[2025.11.05-08.26.47:311][323]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.446 ms (total: 858.175 ms)
+[2025.11.05-08.26.47:414][323]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-08.26.47:414][323]LogContentValidation: Enabled validators:
+[2025.11.05-08.26.47:414][323]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-08.26.47:414][323]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-08.26.47:414][323]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-08.26.47:414][323]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-08.26.47:414][323]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-08.26.47:414][323]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-08.26.47:414][323]AssetCheck: /Game/LevelSequence/AutomaticDoor Validating asset
+[2025.11.05-08.26.47:438][323]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.05-08.26.48:620][391]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/LevelSequence/AutomaticDoor.AutomaticDoor
+[2025.11.05-08.26.48:620][391]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/LevelSequence/AutomaticDoor.AutomaticDoor
+[2025.11.05-08.26.48:625][391]LogActorFactory: Actor Factory spawned LevelSequence /Game/LevelSequence/AutomaticDoor.AutomaticDoor as actor: LevelSequenceActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.LevelSequenceActor_0
+[2025.11.05-08.26.48:625][391]LogActorFactory: Actor Factory spawned LevelSequence /Game/LevelSequence/AutomaticDoor.AutomaticDoor as actor: LevelSequenceActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.LevelSequenceActor_0
+[2025.11.05-08.26.48:939][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.11.05-08.26.48:941][408]LogEditorActor: Deleted 0 Actors (0.031 secs)
+[2025.11.05-08.27.03:597][277]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/LevelSequence/AutomaticDoor.AutomaticDoor
+[2025.11.05-08.27.03:733][277]LogSequenceNavigator: Activating provider: LevelSequence
+[2025.11.05-08.27.03:733][277]LogSequenceNavigator: Loading provider state: LevelSequence
+[2025.11.05-08.27.03:761][277]LogSequenceNavigator: Tool instance 'LevelSequenceEditor' provider 'LevelSequence' registered
+[2025.11.05-08.27.03:763][277]LogStreaming: Display: FlushAsyncLoading(559): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.05-08.28.03:782][303]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2083.572021
+[2025.11.05-08.28.04:783][306]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.05-08.28.04:783][306]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2084.238281, Update Interval: 302.805267
+[2025.11.05-08.29.05:535][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.11.05-08.29.05:537][229]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.041
+[2025.11.05-08.29.05:538][229]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelSequence/AutomaticDoor] ([1] browsable assets)...
+[2025.11.05-08.29.05:538][229]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelSequence/AutomaticDoor]
+[2025.11.05-08.29.05:549][229]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LevelSequence/AutomaticDoor_Auto2
+[2025.11.05-08.29.05:549][229]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/AutomaticDoor_Auto21E8DBAC04B9BE66461BB11B54FA2D245.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/Autosaves/Game/LevelSequence/AutomaticDoor_Auto2.uasset'
+[2025.11.05-08.29.05:550][229]LogFileHelpers: Auto-saving content packages took 0.013
+[2025.11.05-08.29.18:497][911]Cmd: DELETE
+[2025.11.05-08.29.18:497][911]Cmd: ACTOR DELETE
+[2025.11.05-08.29.20:648][911]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2025.11.05-08.29.20:678][911]LogEditorActor: Deleted Actor: BP_AutomaticDoor_C
+[2025.11.05-08.29.20:703][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.11.05-08.29.20:707][911]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.11.05-08.29.23:339][ 59]LogSlate: Took 0.006974 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.11.05-08.29.36:475][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.11.05-08.29.39:309][828]LogSlate: Window 'Delete Assets' being destroyed
+[2025.11.05-08.29.39:433][828]LogSlate: Window 'BP_AutomaticDoor' being destroyed
+[2025.11.05-08.29.39:444][828]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-08.29.39:444][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-08.29.39:474][828]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BP/BP_AutomaticDoor.BP_AutomaticDoor
+	Asset Type: Blueprint
+[2025.11.05-08.29.39:780][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.11.05-08.29.39:856][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.11.05-08.29.39:882][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.11.05-08.29.39:908][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.11.05-08.29.39:944][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.11.05-08.30.05:611][307]Cmd: TRANSACTION UNDO
+[2025.11.05-08.30.05:611][307]LogEditorTransaction: Undo Move Elements
+[2025.11.05-08.30.25:545][477]LogSequenceNavigator: Deactivating provider: LevelSequence
+[2025.11.05-08.30.25:549][477]LogSequenceNavigator: Provider unregistered: LevelSequence
+[2025.11.05-08.30.35:332][ 23]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_frame_01.SM_gate_big_frame_01
+[2025.11.05-08.30.35:333][ 23]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_frame_01.SM_gate_big_frame_01
+[2025.11.05-08.30.35:333][ 23]LogActorFactory: Actor Factory spawned StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_frame_01.SM_gate_big_frame_01 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_1
+[2025.11.05-08.30.35:334][ 23]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_01.SM_gate_big_01
+[2025.11.05-08.30.35:334][ 23]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_01.SM_gate_big_01
+[2025.11.05-08.30.35:334][ 23]LogActorFactory: Actor Factory spawned StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_01.SM_gate_big_01 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_2
+[2025.11.05-08.30.36:343][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.11.05-08.30.36:347][ 81]LogEditorActor: Deleted 0 Actors (0.046 secs)
+[2025.11.05-08.30.36:374][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.11.05-08.30.36:375][ 81]LogEditorActor: Deleted 0 Actors (0.028 secs)
+[2025.11.05-08.30.36:382][ 81]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_frame_01.SM_gate_big_frame_01
+[2025.11.05-08.30.36:382][ 81]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_frame_01.SM_gate_big_frame_01
+[2025.11.05-08.30.36:384][ 81]LogActorFactory: Actor Factory spawned StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_frame_01.SM_gate_big_frame_01 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_CC28AA4A81E1339F02_1473731944
+[2025.11.05-08.30.36:384][ 81]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_01.SM_gate_big_01
+[2025.11.05-08.30.36:384][ 81]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_01.SM_gate_big_01
+[2025.11.05-08.30.36:386][ 81]LogActorFactory: Actor Factory spawned StaticMesh /Game/Castle/Palace/Gate/SM_gate_big_01.SM_gate_big_01 as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_CC28AA4A81E1339F02_1473733945
+[2025.11.05-08.30.43:571][496]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-08.30.43:643][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.11.05-08.30.43:672][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.11.05-08.30.43:696][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.11.05-08.30.43:789][496]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/MJ/AO77C7A0G51ORRXIKK5DHR
+[2025.11.05-08.30.43:791][496]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/AO77C7A0G51ORRXIKK5DHRB10BA2F8464E26C7842DB4B9CE5A8FCD.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/MJ/AO77C7A0G51ORRXIKK5DHR.uasset'
+[2025.11.05-08.30.43:801][496]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/H9/XWVDP7TXTG168AA2F4D2KS
+[2025.11.05-08.30.43:801][496]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/XWVDP7TXTG168AA2F4D2KSD8BA9D134E382739FE0F5683E1143CB2.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/H9/XWVDP7TXTG168AA2F4D2KS.uasset'
+[2025.11.05-08.30.43:810][496]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/6P/DEGNC0NHJKJ7J0R1I2G8Q6
+[2025.11.05-08.30.43:810][496]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/DEGNC0NHJKJ7J0R1I2G8Q65D216FBC4C091E81EC1D36806DE19300.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/6P/DEGNC0NHJKJ7J0R1I2G8Q6.uasset'
+[2025.11.05-08.30.43:820][496]LogFileHelpers: InternalPromptForCheckoutAndSave took 249.389 ms (total: 1.10 sec)
+[2025.11.05-08.30.43:894][496]LogContentValidation: Display: Starting to validate 3 assets
+[2025.11.05-08.30.43:894][496]LogContentValidation: Enabled validators:
+[2025.11.05-08.30.43:894][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-08.30.43:894][496]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-08.30.43:894][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-08.30.43:894][496]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-08.30.43:894][496]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-08.30.43:894][496]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-08.30.43:894][496]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2025.11.05-08.30.43:952][496]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.05-08.30.58:739][383]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.05-08.30.58:812][383]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/A/1P/8DYPAWJSJLXEQMNZNO1023
+[2025.11.05-08.30.58:812][383]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/8DYPAWJSJLXEQMNZNO1023B730AB8E452B5088158A52906ACEEFD2.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/A/1P/8DYPAWJSJLXEQMNZNO1023.uasset'
+[2025.11.05-08.30.58:824][383]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.347 ms (total: 1.19 sec)
+[2025.11.05-08.30.58:882][383]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.05-08.30.58:882][383]LogContentValidation: Enabled validators:
+[2025.11.05-08.30.58:882][383]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.05-08.30.58:882][383]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.05-08.30.58:882][383]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.05-08.30.58:882][383]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.05-08.30.58:882][383]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.05-08.30.58:882][383]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.05-08.30.58:882][383]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2025.11.05-08.30.58:898][383]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
