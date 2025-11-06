@@ -2274,3 +2274,850 @@ Sampler Limit: 32
 [2025.11.06-15.17.56:475][306]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.06-15.17.56:479][306]AssetCheck: /Game/Castle/Palace/SM_palace_wall_entry_01 Validating asset
 [2025.11.06-15.17.56:499][306]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.06-15.18.35:797][929]LogStreaming: Display: FlushAsyncLoading(576): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.06-15.18.35:823][929]LogStaticMesh: Display: Building static mesh SM_Bird (Required Memory Estimate: 0.741252 MB)...
+[2025.11.06-15.18.35:836][929]LogStaticMesh: Built static mesh [0.01s] /Game/Castle/VFX/Meshes/SM_Bird.SM_Bird
+[2025.11.06-15.18.35:968][930]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/VFX/Meshes/SM_Bird.SM_Bird
+[2025.11.06-15.18.35:968][930]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/VFX/Meshes/SM_Bird.SM_Bird
+[2025.11.06-15.18.35:969][930]LogActorFactory: Actor Factory spawned StaticMesh /Game/Castle/VFX/Meshes/SM_Bird.SM_Bird as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_5
+[2025.11.06-15.18.37:711][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.11.06-15.18.37:716][ 21]LogEditorActor: Deleted 0 Actors (0.034 secs)
+[2025.11.06-15.18.37:726][ 21]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/VFX/Meshes/SM_Bird.SM_Bird
+[2025.11.06-15.18.37:726][ 21]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Castle/VFX/Meshes/SM_Bird.SM_Bird
+[2025.11.06-15.18.37:728][ 21]LogActorFactory: Actor Factory spawned StaticMesh /Game/Castle/VFX/Meshes/SM_Bird.SM_Bird as actor: StaticMeshActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.StaticMeshActor_UAID_CC28AA4A81E19A9F02_1759667511
+[2025.11.06-15.18.39:532][110]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-15.18.39:537][110]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.06-15.18.39:537][110]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.11.06-15.18.39:538][110]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 766 us (total: 8.807 ms)
+[2025.11.06-15.18.39:538][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-15.18.39:538][110]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.11.06-15.18.39:541][110]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.06-15.18.39:542][110]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 448 us (total: 4.604 ms)
+[2025.11.06-15.18.39:542][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003519s)
+[2025.11.06-15.18.39:542][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.003544s)
+[2025.11.06-15.18.39:565][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.11.06-15.18.39:568][110]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.11.06-15.18.39:569][110]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.06-15.18.39:569][110]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.06-15.18.39:569][110]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.06-15.18.39:570][110]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.06-15.18.39:570][110]LogWorldPartition: Display: WorldPartition initialize took 1.040 ms (total: 222.527 ms)
+[2025.11.06-15.18.39:571][110]LogPlayLevel: PIE: World Init took: (0.002948s)
+[2025.11.06-15.18.39:571][110]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.11.06-15.18.39:571][110]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-15.18.39:571][110]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-15.18.39:571][110]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-15.18.39:571][110]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-15.18.39:571][110]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-15.18.39:571][110]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-15.18.39:571][110]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-15.18.39:571][110]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-15.18.39:571][110]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-15.18.39:571][110]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-15.18.39:571][110]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-15.18.39:574][110]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-15.18.39:674][110]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.11.06-15.18.39:674][110]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-15.18.39:674][110]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-15.18.39:674][110]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-15.18.39:675][110]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.11.06-15.18.39:675][110]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.11.06-15.18.39:678][110]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.11.06-15.18.39:678][110]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.11.06-15.18.39:678][110]LogInit: FAudioDevice initialized with ID 12.
+[2025.11.06-15.18.39:678][110]LogAudio: Display: Audio Device (ID: 12) registered with world 'Lvl_ThirdPerson'.
+[2025.11.06-15.18.39:678][110]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.11.06-15.18.39:681][110]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.06-15.18.39:682][110]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.11.06-16.18.39
+[2025.11.06-15.18.39:682][110]LogWorld: Bringing up level for play took: 0.000925
+[2025.11.06-15.18.39:685][110]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.11.06-15.18.39:689][110]PIE: Server logged in
+[2025.11.06-15.18.39:691][110]PIE: Play in editor total start time 0,154 seconds.
+[2025.11.06-15.18.39:734][111]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: ================================================
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Total job queries 492, among them cache hits 51 (10.37%), DDC hits 359 (72.97%), Duplicates 69 (14.02%)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Tracking 372 distinct input hashes that result in 271 distinct outputs (72.85%)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: RAM used: 3,58 MiB of 1,60 GiB budget. Usage: 0.22%
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Shaders Compiled: 13
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Jobs assigned 13, completed 13 (100%)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Average time worker was idle: 1232.82 s
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.98 s
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Job execution time: average 1.09 s, max 1.99 s
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Job life time (pending + execution): average 1.19 s, max 2.09
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Shader code size: total 111,871 KiB, numShaders 15, average 7,458 KiB, min 3,289 KiB, max 13,012 KiB
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.76 s
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Jobs were issued in 13 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Average processing rate: 4.71 jobs/sec
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Total thread time: 10,358 s
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Total thread preprocess time: 6,738 s
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Percentage time preprocessing: 65.05%
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Effective parallelization: 3.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.375552
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.66 sec, max 1.66 sec, min 1.66 sec)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.74 sec, max 0.74 sec, min 0.74 sec)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.65 sec, max 0.85 sec, min 0.46 sec)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 16.00% of total time (compiled    1 times, average 1.66 sec, max 1.66 sec, min 1.66 sec)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.64% of total time (compiled    2 times, average 0.65 sec, max 0.85 sec, min 0.46 sec)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display:                                                  FVelocityPS - 10.40% of total time (compiled    1 times, average 1.08 sec, max 1.08 sec, min 1.08 sec)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.24% of total time (compiled    2 times, average 0.48 sec, max 0.65 sec, min 0.31 sec)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 7.19% of total time (compiled    1 times, average 0.74 sec, max 0.74 sec, min 0.74 sec)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: === Material stats ===
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Materials Translated:    160
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Material Translation Only: 0.03 s (28%)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: Material Cache Hits: 19 (12%)
+[2025.11.06-15.18.39:760][112]LogShaderCompilers: Display: ================================================
+[2025.11.06-15.18.45:395][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-15.18.45:395][447]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.11.06-15.18.45:396][447]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-15.18.45:396][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-15.18.45:396][447]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.11.06-15.18.45:397][447]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-15.18.45:399][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-15.18.45:417][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-15.18.45:418][447]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.11.06-15.18.45:418][447]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2025.11.06-15.18.45:420][447]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2025.11.06-15.18.45:425][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.11.06-15.18.45:506][448]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.11.06-15.18.47:016][534]Cmd: DELETE
+[2025.11.06-15.18.47:016][534]Cmd: ACTOR DELETE
+[2025.11.06-15.18.47:018][534]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.18.47:042][534]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.11.06-15.18.47:043][534]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2025.11.06-15.19.01:010][361]LogStreaming: Display: FlushAsyncLoading(577): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.06-15.19.02:176][361]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Castle/VFX/Niagara/NS_Birds.NS_Birds
+[2025.11.06-15.19.02:176][361]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Castle/VFX/Niagara/NS_Birds.NS_Birds
+[2025.11.06-15.19.02:177][361]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Castle/VFX/Niagara/NS_Birds.NS_Birds as actor: NiagaraActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.NiagaraActor_0
+[2025.11.06-15.19.02:213][361]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Castle/VFX/Niagara/NS_Birds.NS_Birds as actor: NiagaraActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.NiagaraActor_0
+[2025.11.06-15.19.02:785][395]LogNiagara: Compiling System NiagaraSystem /Game/Castle/VFX/Niagara/NS_Birds.NS_Birds took 0.607866 sec (time since issued).
+[2025.11.06-15.19.03:241][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.11.06-15.19.03:245][421]LogEditorActor: Deleted 0 Actors (0.026 secs)
+[2025.11.06-15.19.03:251][421]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Castle/VFX/Niagara/NS_Birds.NS_Birds
+[2025.11.06-15.19.03:251][421]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/Castle/VFX/Niagara/NS_Birds.NS_Birds
+[2025.11.06-15.19.03:254][421]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Castle/VFX/Niagara/NS_Birds.NS_Birds as actor: NiagaraActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.NiagaraActor_UAID_CC28AA4A81E19A9F02_1785192512
+[2025.11.06-15.19.03:255][421]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/Castle/VFX/Niagara/NS_Birds.NS_Birds as actor: NiagaraActor /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.NiagaraActor_UAID_CC28AA4A81E19A9F02_1785192512
+[2025.11.06-15.19.08:641][713]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-15.19.08:646][713]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.06-15.19.08:647][713]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.11.06-15.19.08:647][713]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 833 us (total: 9.641 ms)
+[2025.11.06-15.19.08:648][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-15.19.08:648][713]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.11.06-15.19.08:651][713]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.06-15.19.08:651][713]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 470 us (total: 5.074 ms)
+[2025.11.06-15.19.08:651][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003751s)
+[2025.11.06-15.19.08:651][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.003776s)
+[2025.11.06-15.19.08:681][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.11.06-15.19.08:683][713]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.11.06-15.19.08:685][713]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.06-15.19.08:685][713]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.06-15.19.08:685][713]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.06-15.19.08:685][713]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.06-15.19.08:686][713]LogWorldPartition: Display: WorldPartition initialize took 1.061 ms (total: 223.588 ms)
+[2025.11.06-15.19.08:686][713]LogPlayLevel: PIE: World Init took: (0.002925s)
+[2025.11.06-15.19.08:687][713]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.11.06-15.19.08:687][713]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-15.19.08:687][713]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-15.19.08:687][713]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-15.19.08:687][713]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-15.19.08:687][713]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-15.19.08:687][713]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-15.19.08:687][713]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-15.19.08:687][713]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-15.19.08:687][713]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-15.19.08:687][713]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-15.19.08:687][713]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-15.19.08:690][713]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-15.19.08:800][713]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.11.06-15.19.08:801][713]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-15.19.08:801][713]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-15.19.08:801][713]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-15.19.08:801][713]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.11.06-15.19.08:801][713]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.11.06-15.19.08:804][713]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.11.06-15.19.08:804][713]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.11.06-15.19.08:804][713]LogInit: FAudioDevice initialized with ID 13.
+[2025.11.06-15.19.08:804][713]LogAudio: Display: Audio Device (ID: 13) registered with world 'Lvl_ThirdPerson'.
+[2025.11.06-15.19.08:804][713]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.11.06-15.19.08:808][713]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.06-15.19.08:809][713]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 60) at 2025.11.06-16.19.08
+[2025.11.06-15.19.08:809][713]LogWorld: Bringing up level for play took: 0.001111
+[2025.11.06-15.19.08:811][713]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.11.06-15.19.08:816][713]PIE: Server logged in
+[2025.11.06-15.19.08:818][713]PIE: Play in editor total start time 0,171 seconds.
+[2025.11.06-15.19.08:867][714]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-15.19.15:775][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-15.19.15:775][123]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2025.11.06-15.19.15:775][123]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-15.19.15:776][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-15.19.15:776][123]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.11.06-15.19.15:777][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-15.19.15:779][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-15.19.15:799][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-15.19.15:799][123]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.11.06-15.19.15:799][123]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2025.11.06-15.19.15:803][123]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2025.11.06-15.19.15:826][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.11.06-15.19.15:918][124]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.11.06-15.19.17:315][202]Cmd: DELETE
+[2025.11.06-15.19.17:315][202]Cmd: ACTOR DELETE
+[2025.11.06-15.19.17:316][202]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.19.17:345][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.11.06-15.19.17:347][202]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2025.11.06-15.19.20:343][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-15.19.20:427][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.11.06-15.19.20:454][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.11.06-15.19.20:482][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.11.06-15.19.20:535][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.11.06-15.19.20:552][380]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Lvl_ThirdPerson
+[2025.11.06-15.19.20:554][380]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/Lvl_ThirdPersonFFA268A84BEC33B98257D6B0DE721988.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/ThirdPerson/Lvl_ThirdPerson.umap'
+[2025.11.06-15.19.20:566][380]LogFileHelpers: Saving map 'Lvl_ThirdPerson' took 0.083
+[2025.11.06-15.19.20:574][380]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/73/WH2U9GDITWPBFFQ3AKZOX6
+[2025.11.06-15.19.20:575][380]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/WH2U9GDITWPBFFQ3AKZOX6AA99C4054D83B9D8365C10A87C1810F1.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/73/WH2U9GDITWPBFFQ3AKZOX6.uasset'
+[2025.11.06-15.19.20:586][380]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/I4/J24YZ5U3LXMPGRBP6XPKYP
+[2025.11.06-15.19.20:588][380]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/J24YZ5U3LXMPGRBP6XPKYP8E7121954F312730AE35F1893BC6907B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/I4/J24YZ5U3LXMPGRBP6XPKYP.uasset'
+[2025.11.06-15.19.20:598][380]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/0X/TZ164KDO4LVQZL6XEGKZN1
+[2025.11.06-15.19.20:598][380]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/TZ164KDO4LVQZL6XEGKZN1B0734E274D34C03AB0CEB58E62B5FEA5.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/0X/TZ164KDO4LVQZL6XEGKZN1.uasset'
+[2025.11.06-15.19.20:610][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 266.853 ms (total: 1.49 sec)
+[2025.11.06-15.19.20:680][380]LogContentValidation: Display: Starting to validate 4 assets
+[2025.11.06-15.19.20:680][380]LogContentValidation: Enabled validators:
+[2025.11.06-15.19.20:680][380]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-15.19.20:680][380]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-15.19.20:680][380]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-15.19.20:680][380]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-15.19.20:680][380]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-15.19.20:680][380]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-15.19.20:680][380]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2025.11.06-15.19.20:708][380]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.06-15.20.05:473][ 36]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2430.642578
+[2025.11.06-15.20.05:689][ 49]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-15.20.05:689][ 49]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2430.843018, Update Interval: 359.320648
+[2025.11.06-15.21.15:242][973]Cmd: EDIT PASTE
+[2025.11.06-15.21.15:463][973]LogStreaming: Display: FlushAsyncLoading(578): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.06-15.21.15:596][973]LogStaticMesh: Display: Building static mesh SM_FountainPlane (Required Memory Estimate: 0.071283 MB)...
+[2025.11.06-15.21.15:597][973]LogStaticMesh: Built static mesh [0.00s] /Game/Castle/VFX/Waterfalls/Meshes/SM_FountainPlane.SM_FountainPlane
+[2025.11.06-15.21.15:656][973]LogStaticMesh: Display: Building static mesh SM_FountainWaterfall (Required Memory Estimate: 0.200686 MB)...
+[2025.11.06-15.21.15:658][973]LogStaticMesh: Built static mesh [0.00s] /Game/Castle/VFX/Waterfalls/Meshes/SM_FountainWaterfall.SM_FountainWaterfall
+[2025.11.06-15.21.16:692][  2]LogNiagara: Compiling System NiagaraSystem /Game/Castle/VFX/Waterfalls/Particles/NS_FountainSplash.NS_FountainSplash took 0.846216 sec (time since issued).
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: ================================================
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Total job queries 593, among them cache hits 74 (12.48%), DDC hits 385 (64.92%), Duplicates 73 (12.31%)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Tracking 446 distinct input hashes that result in 335 distinct outputs (75.11%)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: RAM used: 4,14 MiB of 1,60 GiB budget. Usage: 0.25%
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Shaders Compiled: 61
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Jobs assigned 61, completed 61 (100%)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Average time worker was idle: 143.05 s
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Time job spent in pending queue: average 0.29 s, longest 2.47 s
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Job execution time: average 1.57 s, max 3.41 s
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Job life time (pending + execution): average 1.86 s, max 3.90
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Shader code size: total 596,442 KiB, numShaders 65, average 9,176 KiB, min 3,289 KiB, max 26,322 KiB
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.73 s
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Jobs were issued in 47 batches (only local compilation was used), average 1.30 jobs/batch
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Average processing rate: 5.69 jobs/sec
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Total thread time: 48,978 s
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Total thread preprocess time: 8,611 s
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Percentage time preprocessing: 17.58%
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Effective parallelization: 4.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.456659
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    2 times, average 1.86 sec, max 2.19 sec, min 1.54 sec)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 1.69 sec, max 1.98 sec, min 1.40 sec)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    4 times, average 1.64 sec, max 2.18 sec, min 1.30 sec)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 1.16 sec, max 1.24 sec, min 1.08 sec)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    2 times, average 0.91 sec, max 1.07 sec, min 0.74 sec)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 13.36% of total time (compiled    4 times, average 1.64 sec, max 2.18 sec, min 1.30 sec)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.42% of total time (compiled    7 times, average 0.73 sec, max 0.92 sec, min 0.46 sec)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.01% of total time (compiled    7 times, average 0.63 sec, max 0.88 sec, min 0.31 sec)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 7.62% of total time (compiled    2 times, average 1.86 sec, max 2.19 sec, min 1.54 sec)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.90% of total time (compiled    2 times, average 1.69 sec, max 1.98 sec, min 1.40 sec)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: === Material stats ===
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Materials Translated:    167
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Material Translation Only: 0.04 s (29%)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: Material Cache Hits: 19 (11%)
+[2025.11.06-15.21.39:770][260]LogShaderCompilers: Display: ================================================
+[2025.11.06-15.22.54:237][573]Cmd: TRANSACTION UNDO
+[2025.11.06-15.22.54:237][573]LogEditorTransaction: Undo Move Elements
+[2025.11.06-15.23.23:455][772]Cmd: EDIT PASTE
+[2025.11.06-15.23.23:536][772]LogStreaming: Display: FlushAsyncLoading(585): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.06-15.23.40:223][687]Cmd: DELETE
+[2025.11.06-15.23.40:223][687]Cmd: ACTOR DELETE
+[2025.11.06-15.23.41:680][687]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2025.11.06-15.23.41:690][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.42:817][687]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2025.11.06-15.23.42:824][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.43:329][687]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2025.11.06-15.23.43:337][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.44:010][687]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2025.11.06-15.23.44:018][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:906][687]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2025.11.06-15.23.45:915][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:916][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:917][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:918][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:918][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:919][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:920][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:920][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:921][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:921][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:923][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:923][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:924][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:925][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:926][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:927][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:927][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:928][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:929][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:930][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:931][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:932][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:933][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:934][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:935][687]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.11.06-15.23.45:936][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:937][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:939][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:940][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:942][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:943][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:944][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:946][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:947][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:948][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:950][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:951][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:952][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:954][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:955][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:957][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:958][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:959][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:961][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:962][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:964][687]LogEditorActor: Deleted Actor: NiagaraActor
+[2025.11.06-15.23.45:993][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.11.06-15.23.46:000][687]LogEditorActor: Deleted 50 Actors (0.125 secs)
+[2025.11.06-15.24.33:588][427]Cmd: TRANSACTION UNDO
+[2025.11.06-15.24.33:588][427]LogEditorTransaction: Undo Move Elements
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: ================================================
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Total job queries 604, among them cache hits 76 (12.58%), DDC hits 390 (64.57%), Duplicates 73 (12.09%)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Tracking 455 distinct input hashes that result in 339 distinct outputs (74.51%)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: RAM used: 4,18 MiB of 1,60 GiB budget. Usage: 0.26%
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Shaders Compiled: 65
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Jobs assigned 65, completed 65 (100%)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Average time worker was idle: 134.74 s
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Time job spent in pending queue: average 0.28 s, longest 2.47 s
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Job execution time: average 1.51 s, max 3.41 s
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Job life time (pending + execution): average 1.79 s, max 3.90
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Shader code size: total 625,349 KiB, numShaders 69, average 9,062 KiB, min 3,289 KiB, max 26,322 KiB
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 12.34 s
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Jobs were issued in 51 batches (only local compilation was used), average 1.27 jobs/batch
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Average processing rate: 5.27 jobs/sec
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Total thread time: 50,714 s
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Total thread preprocess time: 8,786 s
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Percentage time preprocessing: 17.32%
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Effective parallelization: 4.11 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.410977
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    2 times, average 1.86 sec, max 2.19 sec, min 1.54 sec)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 1.69 sec, max 1.98 sec, min 1.40 sec)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    4 times, average 1.64 sec, max 2.18 sec, min 1.30 sec)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 1.16 sec, max 1.24 sec, min 1.08 sec)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    2 times, average 0.91 sec, max 1.07 sec, min 0.74 sec)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 12.90% of total time (compiled    4 times, average 1.64 sec, max 2.18 sec, min 1.30 sec)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.04% of total time (compiled    9 times, average 0.68 sec, max 0.92 sec, min 0.46 sec)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.70% of total time (compiled    7 times, average 0.63 sec, max 0.88 sec, min 0.31 sec)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 7.35% of total time (compiled    2 times, average 1.86 sec, max 2.19 sec, min 1.54 sec)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display:                                             FDebugViewModePS - 6.67% of total time (compiled    2 times, average 1.69 sec, max 1.98 sec, min 1.40 sec)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: === Material stats ===
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Materials Translated:    168
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Material Translation Only: 0.04 s (29%)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: Material Cache Hits: 19 (11%)
+[2025.11.06-15.24.39:784][771]LogShaderCompilers: Display: ================================================
+[2025.11.06-15.26.47:638][408]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2832.820068
+[2025.11.06-15.26.48:239][444]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-15.26.48:239][445]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2833.403320, Update Interval: 343.347870
+[2025.11.06-15.27.07:823][616]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-15.27.07:922][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.11.06-15.27.07:950][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.11.06-15.27.07:982][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.11.06-15.27.07:994][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/LK/P8MWXEFOMK7V0S6Y1RIV1I
+[2025.11.06-15.27.07:994][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/P8MWXEFOMK7V0S6Y1RIV1IA880BFC64898C592BF9E028090355411.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/LK/P8MWXEFOMK7V0S6Y1RIV1I.uasset'
+[2025.11.06-15.27.08:007][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/W5/EOV652EE3Q5A9HW3BD6IBN
+[2025.11.06-15.27.08:007][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/EOV652EE3Q5A9HW3BD6IBNAFAA24F641FFA7441AA1AEBAA26F80A9.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/W5/EOV652EE3Q5A9HW3BD6IBN.uasset'
+[2025.11.06-15.27.08:019][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/OT/2RX9OB2LY6A77P2FCK91Z1
+[2025.11.06-15.27.08:019][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/2RX9OB2LY6A77P2FCK91Z1CC1F62E64EC6A0A65F33E68E33D0A717.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/OT/2RX9OB2LY6A77P2FCK91Z1.uasset'
+[2025.11.06-15.27.08:030][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/MS/S35WWGT4FXCA9ASKTWOKB7
+[2025.11.06-15.27.08:030][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/S35WWGT4FXCA9ASKTWOKB7D2C1790349CDC18B658E1CABA5EB3EEE.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/MS/S35WWGT4FXCA9ASKTWOKB7.uasset'
+[2025.11.06-15.27.08:040][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/5C/DEG0C13N0LL3L52268D50V
+[2025.11.06-15.27.08:040][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/DEG0C13N0LL3L52268D50V635CA4AC48F32F6BADE9628843178EA1.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/5C/DEG0C13N0LL3L52268D50V.uasset'
+[2025.11.06-15.27.08:050][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/UF/I55KVC870U0BQL50VLO9Q6
+[2025.11.06-15.27.08:051][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/I55KVC870U0BQL50VLO9Q6C61FB09C4B20C064A69643892A00ED46.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/UF/I55KVC870U0BQL50VLO9Q6.uasset'
+[2025.11.06-15.27.08:060][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/BM/7ZYZLRPGP6HFI9G83WWAGM
+[2025.11.06-15.27.08:060][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/7ZYZLRPGP6HFI9G83WWAGMCB62567F4EC7F0396406DDACF90C239E.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/BM/7ZYZLRPGP6HFI9G83WWAGM.uasset'
+[2025.11.06-15.27.08:071][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/LQ/7AQTH2KI37TE7RU4ADHKJ1
+[2025.11.06-15.27.08:071][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/7AQTH2KI37TE7RU4ADHKJ19EE2F4C74EF449A0AE68A38F8A2D13D5.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/LQ/7AQTH2KI37TE7RU4ADHKJ1.uasset'
+[2025.11.06-15.27.08:080][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/6A/HKWUA4M509XL1V4WZ2XESA
+[2025.11.06-15.27.08:080][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/HKWUA4M509XL1V4WZ2XESA5B4D2AC248B6FA81E6279AA299494233.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/6A/HKWUA4M509XL1V4WZ2XESA.uasset'
+[2025.11.06-15.27.08:091][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/HP/5TCTPL8EVZFJY9BQ628JKC
+[2025.11.06-15.27.08:092][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/5TCTPL8EVZFJY9BQ628JKCF76DBF854149D683FFF0B2B7B4C5A926.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/HP/5TCTPL8EVZFJY9BQ628JKC.uasset'
+[2025.11.06-15.27.08:103][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/NF/FC92EW8YQXLPX3W6IEC4ZF
+[2025.11.06-15.27.08:103][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/FC92EW8YQXLPX3W6IEC4ZFC2244C7243E53B627FCD36A826BF57BD.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/NF/FC92EW8YQXLPX3W6IEC4ZF.uasset'
+[2025.11.06-15.27.08:114][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/BY/5LCP233J4W9M90QXUDLCJB
+[2025.11.06-15.27.08:114][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/5LCP233J4W9M90QXUDLCJB2B78AFBA411254C9288F75957435A74A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/BY/5LCP233J4W9M90QXUDLCJB.uasset'
+[2025.11.06-15.27.08:124][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/OZ/P9BHWUK1MM0J91E3ARDHZE
+[2025.11.06-15.27.08:125][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/P9BHWUK1MM0J91E3ARDHZE63291AF24D9F360141EBCB87ED8578AB.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/OZ/P9BHWUK1MM0J91E3ARDHZE.uasset'
+[2025.11.06-15.27.08:135][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/54/DK0KQL7100U4X5OBY20FAR
+[2025.11.06-15.27.08:135][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/DK0KQL7100U4X5OBY20FAR237E623F4950F90BD911678334B5AFBF.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/54/DK0KQL7100U4X5OBY20FAR.uasset'
+[2025.11.06-15.27.08:146][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/J6/HJTAHBXDJRY5YKIED3UXNN
+[2025.11.06-15.27.08:146][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/HJTAHBXDJRY5YKIED3UXNNFC62804C4B55841D9D9F6B8104A13157.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/J6/HJTAHBXDJRY5YKIED3UXNN.uasset'
+[2025.11.06-15.27.08:157][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/7L/0U64YFU7BEGMYXML0M1LBH
+[2025.11.06-15.27.08:157][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/0U64YFU7BEGMYXML0M1LBH89B1067B447F977FFCDB5D903CD403EE.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/7L/0U64YFU7BEGMYXML0M1LBH.uasset'
+[2025.11.06-15.27.08:167][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/VY/6OR88V7BPJ63EYRRG98XWU
+[2025.11.06-15.27.08:167][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/6OR88V7BPJ63EYRRG98XWU4A3AAEB143002166B82ABAA54210D327.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/VY/6OR88V7BPJ63EYRRG98XWU.uasset'
+[2025.11.06-15.27.08:179][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/VW/CKE1YH3M0Y383OZ72KT510
+[2025.11.06-15.27.08:179][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/CKE1YH3M0Y383OZ72KT510B8D474DC45AC0D7F3F1D588C4E4FBC14.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/VW/CKE1YH3M0Y383OZ72KT510.uasset'
+[2025.11.06-15.27.08:189][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/PQ/1KA1DMN6XAN2IG1XG55EB8
+[2025.11.06-15.27.08:189][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/1KA1DMN6XAN2IG1XG55EB8D972E5994A228B45D0520CBB6D377968.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/PQ/1KA1DMN6XAN2IG1XG55EB8.uasset'
+[2025.11.06-15.27.08:198][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AD/Q8TLET130K2Y2ER4EI29V4
+[2025.11.06-15.27.08:198][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/Q8TLET130K2Y2ER4EI29V45AD8C8C44CFA4BFC0B90C884CEC73A63.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AD/Q8TLET130K2Y2ER4EI29V4.uasset'
+[2025.11.06-15.27.08:208][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/DF/FXKWZ49LYARZYJ6JXN2GG0
+[2025.11.06-15.27.08:208][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/FXKWZ49LYARZYJ6JXN2GG06503A59F4A25D06C165D8EA27D1C94C8.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/DF/FXKWZ49LYARZYJ6JXN2GG0.uasset'
+[2025.11.06-15.27.08:218][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/WK/5MIUKJBRQ9WB4BMIPJHLPL
+[2025.11.06-15.27.08:218][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/5MIUKJBRQ9WB4BMIPJHLPL985A60FE436EF106906C86B6E4CFFC6D.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/WK/5MIUKJBRQ9WB4BMIPJHLPL.uasset'
+[2025.11.06-15.27.08:229][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/1D/WWID549VOPWARIWI6XEEDB
+[2025.11.06-15.27.08:229][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/WWID549VOPWARIWI6XEEDB81CA85C047A1A44B8B05ADA881728229.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/1D/WWID549VOPWARIWI6XEEDB.uasset'
+[2025.11.06-15.27.08:238][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/ZV/86004SRQEF4C2XTGDQHD92
+[2025.11.06-15.27.08:238][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/86004SRQEF4C2XTGDQHD92C1646BCC4760B8A8D66B81A39F6025F1.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/ZV/86004SRQEF4C2XTGDQHD92.uasset'
+[2025.11.06-15.27.08:248][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/EF/JDI7PL5L4NKMGKZD48KPSK
+[2025.11.06-15.27.08:248][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/JDI7PL5L4NKMGKZD48KPSK2810D58C4D81153E87FE618C80BDF36D.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/EF/JDI7PL5L4NKMGKZD48KPSK.uasset'
+[2025.11.06-15.27.08:257][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/BD/U1RY70ZFRI1QHZHUQI1RM2
+[2025.11.06-15.27.08:257][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/U1RY70ZFRI1QHZHUQI1RM2646CE52948D2D274FD12879967E3659F.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/BD/U1RY70ZFRI1QHZHUQI1RM2.uasset'
+[2025.11.06-15.27.08:268][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/26/XTMPV00514EOL8OWZFEAYW
+[2025.11.06-15.27.08:268][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/XTMPV00514EOL8OWZFEAYWD72E8B3B456F1C717774B1B3659B9DBB.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/26/XTMPV00514EOL8OWZFEAYW.uasset'
+[2025.11.06-15.27.08:277][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/2C/KZOU09OM3WZG8JYTI2Z010
+[2025.11.06-15.27.08:277][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/KZOU09OM3WZG8JYTI2Z010E604E1C04AED6435E94F4690269F8A54.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/2C/KZOU09OM3WZG8JYTI2Z010.uasset'
+[2025.11.06-15.27.08:287][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/BG/5VW0Q5W9OIBEB2I6M062A3
+[2025.11.06-15.27.08:287][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/5VW0Q5W9OIBEB2I6M062A37129AEAC40F3AB8625C538977EA2DC84.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/BG/5VW0Q5W9OIBEB2I6M062A3.uasset'
+[2025.11.06-15.27.08:297][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/DK/BLMRULNAKVTCZV7LOJMB1N
+[2025.11.06-15.27.08:297][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BLMRULNAKVTCZV7LOJMB1NC9844C5940681ED8804125A8ED1B81FA.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/DK/BLMRULNAKVTCZV7LOJMB1N.uasset'
+[2025.11.06-15.27.08:308][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/4E/4RT5K1IAH4RVZ1Z5XOORL5
+[2025.11.06-15.27.08:308][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/4RT5K1IAH4RVZ1Z5XOORL59F3F47F248D5D450AE1D5D9C165A04DF.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/4E/4RT5K1IAH4RVZ1Z5XOORL5.uasset'
+[2025.11.06-15.27.08:318][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/KN/Z4OW2ZZB4GZGS80N92H2GA
+[2025.11.06-15.27.08:318][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/Z4OW2ZZB4GZGS80N92H2GA8255EF4E4F62DA99A760F98B295513AA.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/KN/Z4OW2ZZB4GZGS80N92H2GA.uasset'
+[2025.11.06-15.27.08:327][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/YB/U76UGS4XSWM4ED2I2D11NG
+[2025.11.06-15.27.08:327][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/U76UGS4XSWM4ED2I2D11NG112FE5054B755ECA18F3B1AC235405BC.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/YB/U76UGS4XSWM4ED2I2D11NG.uasset'
+[2025.11.06-15.27.08:337][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/BO/AVB19WEVTVTLTWRKZX22VK
+[2025.11.06-15.27.08:337][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/AVB19WEVTVTLTWRKZX22VKDFF26B2D4A2EAD3243EBBA8A1E191C4C.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/BO/AVB19WEVTVTLTWRKZX22VK.uasset'
+[2025.11.06-15.27.08:347][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/QV/7E535H09KC8BTQ401ZJVE9
+[2025.11.06-15.27.08:347][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/7E535H09KC8BTQ401ZJVE9F75EE264416DC62A8CC564984F505531.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/QV/7E535H09KC8BTQ401ZJVE9.uasset'
+[2025.11.06-15.27.08:358][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/F8/4628CG5XWD0880MKXBHWH1
+[2025.11.06-15.27.08:358][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/4628CG5XWD0880MKXBHWH18D585E894BC723102B2B34809B0FC934.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/F8/4628CG5XWD0880MKXBHWH1.uasset'
+[2025.11.06-15.27.08:367][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/8B/TJ8G9BI5K4YFYCRY53MFA5
+[2025.11.06-15.27.08:367][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/TJ8G9BI5K4YFYCRY53MFA5C8B99200455D0A9B9D4979AC3D8EA929.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/8B/TJ8G9BI5K4YFYCRY53MFA5.uasset'
+[2025.11.06-15.27.08:377][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/YG/VQWN0SPKXO08XZF3C02327
+[2025.11.06-15.27.08:377][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/VQWN0SPKXO08XZF3C023278281823D4BBAC865FE1F459FECB3597E.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/YG/VQWN0SPKXO08XZF3C02327.uasset'
+[2025.11.06-15.27.08:390][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/8U/5S5IARC3F6CYWUQAAXIW1H
+[2025.11.06-15.27.08:390][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/5S5IARC3F6CYWUQAAXIW1HAD9AD6DD46156DCDC42A5D9A6517F7B8.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/8U/5S5IARC3F6CYWUQAAXIW1H.uasset'
+[2025.11.06-15.27.08:399][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/E7/TIXVZSY6F6S4RGB9ABPDLZ
+[2025.11.06-15.27.08:399][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/TIXVZSY6F6S4RGB9ABPDLZ051250CC455E467B5A3227BEE1809BA2.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/E7/TIXVZSY6F6S4RGB9ABPDLZ.uasset'
+[2025.11.06-15.27.08:410][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/BF/BN24G2PNYP8YSTUIZ9ZR4Q
+[2025.11.06-15.27.08:410][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BN24G2PNYP8YSTUIZ9ZR4Q6926E0544BA2B6E57448CE88B5CEC083.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/BF/BN24G2PNYP8YSTUIZ9ZR4Q.uasset'
+[2025.11.06-15.27.08:419][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/OR/D0I42B483H45QUNXR3KIVE
+[2025.11.06-15.27.08:419][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/D0I42B483H45QUNXR3KIVE839A24E8433B6DBBFDA86EB03EC73628.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/OR/D0I42B483H45QUNXR3KIVE.uasset'
+[2025.11.06-15.27.08:429][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/SA/N2PJ4QGIS6O4JE3YEOQID7
+[2025.11.06-15.27.08:429][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/N2PJ4QGIS6O4JE3YEOQID7776871A14E744D5B89323AA20045FFEA.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/SA/N2PJ4QGIS6O4JE3YEOQID7.uasset'
+[2025.11.06-15.27.08:438][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/OV/4EG95ZTETCV5IJF62WH6D5
+[2025.11.06-15.27.08:438][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/4EG95ZTETCV5IJF62WH6D54D85C3994FB90DE7CECF0CBA018718DD.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/OV/4EG95ZTETCV5IJF62WH6D5.uasset'
+[2025.11.06-15.27.08:447][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/FX/4TF2PJS7U4X31OK1N1X8UG
+[2025.11.06-15.27.08:447][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/4TF2PJS7U4X31OK1N1X8UGAB3E4B2C400EDC3D95B54992EC2551AF.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/FX/4TF2PJS7U4X31OK1N1X8UG.uasset'
+[2025.11.06-15.27.08:458][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/XM/N535KTAVQH317SLW5D63EB
+[2025.11.06-15.27.08:458][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/N535KTAVQH317SLW5D63EB3D7E00654167845F5A805095228F08DB.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/XM/N535KTAVQH317SLW5D63EB.uasset'
+[2025.11.06-15.27.08:467][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/Y2/LOID0V3T1KX7NOAYTJ96ET
+[2025.11.06-15.27.08:467][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/LOID0V3T1KX7NOAYTJ96ET8F39AD5F42A63F98B6005DA080B6A2C9.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/Y2/LOID0V3T1KX7NOAYTJ96ET.uasset'
+[2025.11.06-15.27.08:477][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/IZ/PVXVX7TPWBB6T50GNV1QZX
+[2025.11.06-15.27.08:477][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/PVXVX7TPWBB6T50GNV1QZXEA787FB744526F81E74828B5FBCD767D.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/IZ/PVXVX7TPWBB6T50GNV1QZX.uasset'
+[2025.11.06-15.27.08:487][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/TY/UNFAJD5IJFYO7SR89AXEAM
+[2025.11.06-15.27.08:487][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/UNFAJD5IJFYO7SR89AXEAMEE90CFFD4FF2D4C967C6DCAD0AA8A4D6.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/TY/UNFAJD5IJFYO7SR89AXEAM.uasset'
+[2025.11.06-15.27.08:496][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/NW/O8V2HD3HEE6ZXO5W3PY641
+[2025.11.06-15.27.08:496][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/O8V2HD3HEE6ZXO5W3PY641BF65524D43EBFEB02F00A9A0019A239A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/NW/O8V2HD3HEE6ZXO5W3PY641.uasset'
+[2025.11.06-15.27.08:508][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/1V/YNVEG14EF0D7CBHHT8F4Z9
+[2025.11.06-15.27.08:508][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/YNVEG14EF0D7CBHHT8F4Z9B7C74FDE4B6DE512E41B1E92559D7EA8.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/1V/YNVEG14EF0D7CBHHT8F4Z9.uasset'
+[2025.11.06-15.27.08:518][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/7F/60NCPBK9WVWDWSKNZUDIUJ
+[2025.11.06-15.27.08:518][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/60NCPBK9WVWDWSKNZUDIUJ903584BA4A54378EFB4E6D8F0DBA24D2.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/7F/60NCPBK9WVWDWSKNZUDIUJ.uasset'
+[2025.11.06-15.27.08:528][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/H5/UK6T6M15B10RP5PKLJM5QZ
+[2025.11.06-15.27.08:528][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/UK6T6M15B10RP5PKLJM5QZ005CC78040F8625305BBB09507AAA066.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/H5/UK6T6M15B10RP5PKLJM5QZ.uasset'
+[2025.11.06-15.27.08:537][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/JK/2753ML0NWPK6RNM53QW653
+[2025.11.06-15.27.08:537][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/2753ML0NWPK6RNM53QW653F4D483694201D544E2FA849981097342.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/JK/2753ML0NWPK6RNM53QW653.uasset'
+[2025.11.06-15.27.08:548][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/QP/8OSM0APW3XMMJAMR2LSDHU
+[2025.11.06-15.27.08:548][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/8OSM0APW3XMMJAMR2LSDHU76F8E78C4A74E836DEF1A79E53FFB5FF.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/QP/8OSM0APW3XMMJAMR2LSDHU.uasset'
+[2025.11.06-15.27.08:557][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/N7/R5PJ9HXZPJSH20MZOO7MRR
+[2025.11.06-15.27.08:557][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/R5PJ9HXZPJSH20MZOO7MRRDC12735A46C0B2D45B04FAB6328FC71C.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/N7/R5PJ9HXZPJSH20MZOO7MRR.uasset'
+[2025.11.06-15.27.08:567][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/5T/I083JW4TD7C38T5KHHXS0B
+[2025.11.06-15.27.08:567][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/I083JW4TD7C38T5KHHXS0BB370F8364777CCBCD294D0895AA15A34.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/5T/I083JW4TD7C38T5KHHXS0B.uasset'
+[2025.11.06-15.27.08:577][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/ES/BJ12SZ3K4YJ9NR0MZMWM3Z
+[2025.11.06-15.27.08:577][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BJ12SZ3K4YJ9NR0MZMWM3Z7C383396423DCCD28E75ACAA74694BB5.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/ES/BJ12SZ3K4YJ9NR0MZMWM3Z.uasset'
+[2025.11.06-15.27.08:586][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/S4/QGANGHFB1UJU8JZQMVBUE3
+[2025.11.06-15.27.08:586][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/QGANGHFB1UJU8JZQMVBUE366EC2B6946C28D1D9531618CDB0A47E8.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/S4/QGANGHFB1UJU8JZQMVBUE3.uasset'
+[2025.11.06-15.27.08:597][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/DJ/MOOILKAF6OCSDZFG5067W1
+[2025.11.06-15.27.08:597][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/MOOILKAF6OCSDZFG5067W1A54F856B4A5CD2F4A0041BAF221A6D89.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/DJ/MOOILKAF6OCSDZFG5067W1.uasset'
+[2025.11.06-15.27.08:606][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/NB/9JXTPPTABMBLJAOYY5RJ51
+[2025.11.06-15.27.08:606][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/9JXTPPTABMBLJAOYY5RJ519D7C0D4A4614FAAC2A43B8BC4505092F.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/NB/9JXTPPTABMBLJAOYY5RJ51.uasset'
+[2025.11.06-15.27.08:616][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/7O/N3P79VDPPHUT9HB94BZAB5
+[2025.11.06-15.27.08:616][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/N3P79VDPPHUT9HB94BZAB584DF91214DFB2CEB12E28195FC761877.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/7O/N3P79VDPPHUT9HB94BZAB5.uasset'
+[2025.11.06-15.27.08:626][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/2L/F15T0WR142LGWS5SF2TU27
+[2025.11.06-15.27.08:626][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/F15T0WR142LGWS5SF2TU277561226E4D08332FEE47E1B22F3A38D8.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/2L/F15T0WR142LGWS5SF2TU27.uasset'
+[2025.11.06-15.27.08:637][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/GO/8EO4NXRZK046WEEHSL1L36
+[2025.11.06-15.27.08:637][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/8EO4NXRZK046WEEHSL1L363D89B06747CCB1EF5EDFFE846120C522.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/GO/8EO4NXRZK046WEEHSL1L36.uasset'
+[2025.11.06-15.27.08:647][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/G0/TUEF93FBG3KVAQX7WDRS8B
+[2025.11.06-15.27.08:647][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/TUEF93FBG3KVAQX7WDRS8B32E291BC4BBB25FBA52BEF8A894453A5.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/G0/TUEF93FBG3KVAQX7WDRS8B.uasset'
+[2025.11.06-15.27.08:657][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/T1/1JK0QGPW0SHSPAQEK6K9U8
+[2025.11.06-15.27.08:657][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/1JK0QGPW0SHSPAQEK6K9U8AD8C72464BC94A9498C958B0572D6DC8.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/T1/1JK0QGPW0SHSPAQEK6K9U8.uasset'
+[2025.11.06-15.27.08:666][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/PM/B73Q8C2S0Y9OTY9AYR8XP7
+[2025.11.06-15.27.08:666][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/B73Q8C2S0Y9OTY9AYR8XP7E51DF9414E7FCB0D90ABF8BE294E0FD3.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/PM/B73Q8C2S0Y9OTY9AYR8XP7.uasset'
+[2025.11.06-15.27.08:677][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/VN/JRFS07CXHG7KG45FYFXEM4
+[2025.11.06-15.27.08:677][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/JRFS07CXHG7KG45FYFXEM464F0F41A4AB1E069470D7AA75D3DA80D.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/VN/JRFS07CXHG7KG45FYFXEM4.uasset'
+[2025.11.06-15.27.08:687][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/NL/J61E14BTK5DTL6C9XK2QDA
+[2025.11.06-15.27.08:687][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/J61E14BTK5DTL6C9XK2QDA55781A8B443D41CE3209FDBC140BC39C.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/NL/J61E14BTK5DTL6C9XK2QDA.uasset'
+[2025.11.06-15.27.08:697][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/66/BYT8OFT18L3M08IX0LTYK6
+[2025.11.06-15.27.08:697][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BYT8OFT18L3M08IX0LTYK6BA326AC04EEC029AB99AEDBD60222DFE.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/66/BYT8OFT18L3M08IX0LTYK6.uasset'
+[2025.11.06-15.27.08:709][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/K4/4OZX8WOI6CU02QDDRPD9L4
+[2025.11.06-15.27.08:709][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/4OZX8WOI6CU02QDDRPD9L4794B63F74BF732BA0217EE9316C041D8.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/K4/4OZX8WOI6CU02QDDRPD9L4.uasset'
+[2025.11.06-15.27.08:718][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/3I/XKOFVBTOV0AN37S58A3Q1R
+[2025.11.06-15.27.08:718][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/XKOFVBTOV0AN37S58A3Q1RC51606C04DDC59B9567BC29C056EA697.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/3I/XKOFVBTOV0AN37S58A3Q1R.uasset'
+[2025.11.06-15.27.08:728][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/Y9/8GAKASM9384ILVECM1SQ1I
+[2025.11.06-15.27.08:728][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/8GAKASM9384ILVECM1SQ1I5F1D0F9D4B5AF4604BA301B170EABC2A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/Y9/8GAKASM9384ILVECM1SQ1I.uasset'
+[2025.11.06-15.27.08:737][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/X0/U8R72RVK6M7VMZCXJ1IB9P
+[2025.11.06-15.27.08:737][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/U8R72RVK6M7VMZCXJ1IB9PA7116A5D495D61011426F7865FCE13A2.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/X0/U8R72RVK6M7VMZCXJ1IB9P.uasset'
+[2025.11.06-15.27.08:747][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/4N/B5PRP17OLTHQ18PJ1JK67T
+[2025.11.06-15.27.08:747][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/B5PRP17OLTHQ18PJ1JK67T299789FF491135EAEADA08B62E3F8B41.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/4N/B5PRP17OLTHQ18PJ1JK67T.uasset'
+[2025.11.06-15.27.08:757][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/OU/7YTJXVQLE5O6NF07FQQ3JU
+[2025.11.06-15.27.08:757][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/7YTJXVQLE5O6NF07FQQ3JU5509D9FA4648F45E88EC2CAC6FE778C9.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/OU/7YTJXVQLE5O6NF07FQQ3JU.uasset'
+[2025.11.06-15.27.08:768][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/X9/E8YN5IJ4IUVGB2GRSQEWW7
+[2025.11.06-15.27.08:768][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/E8YN5IJ4IUVGB2GRSQEWW772D97C534BE0C8EA931ED383E482E34E.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/X9/E8YN5IJ4IUVGB2GRSQEWW7.uasset'
+[2025.11.06-15.27.08:777][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/7U/5ZY7NH04GPZZE9T79MIROK
+[2025.11.06-15.27.08:777][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/5ZY7NH04GPZZE9T79MIROK0CEAD28D422465E7261406ABA7EB8A5D.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/7U/5ZY7NH04GPZZE9T79MIROK.uasset'
+[2025.11.06-15.27.08:787][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/QK/0LIM8SVLF8VW35PML42845
+[2025.11.06-15.27.08:787][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/0LIM8SVLF8VW35PML428455A9CDB5640EF3CC878CE469D8821D331.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/QK/0LIM8SVLF8VW35PML42845.uasset'
+[2025.11.06-15.27.08:796][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/NG/5D7Z22O80ZLB0573J70J32
+[2025.11.06-15.27.08:796][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/5D7Z22O80ZLB0573J70J32A821E6814C682D2A8A6A03A553173265.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/NG/5D7Z22O80ZLB0573J70J32.uasset'
+[2025.11.06-15.27.08:806][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/IE/N5Q063Z7LVU8C39S77MKYF
+[2025.11.06-15.27.08:806][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/N5Q063Z7LVU8C39S77MKYFA3B2BE8B44D8059E1CEC30B49E0EEC6A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/IE/N5Q063Z7LVU8C39S77MKYF.uasset'
+[2025.11.06-15.27.08:815][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/4L/U0GLP311IARJ7757UM8O7J
+[2025.11.06-15.27.08:815][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/U0GLP311IARJ7757UM8O7JDF3E5D884EC9A32ECC14CEA3B43E42E5.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/4L/U0GLP311IARJ7757UM8O7J.uasset'
+[2025.11.06-15.27.08:826][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/KB/SN4WKGDMKDWE1P4LKMHTJ1
+[2025.11.06-15.27.08:826][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SN4WKGDMKDWE1P4LKMHTJ19AAB1B074604162A03231FB4639609D4.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/KB/SN4WKGDMKDWE1P4LKMHTJ1.uasset'
+[2025.11.06-15.27.08:835][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/8P/218V71R1Y07KRZTTAFTAZE
+[2025.11.06-15.27.08:835][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/218V71R1Y07KRZTTAFTAZEA01E133E415F3E24759A1688AD27D936.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/8P/218V71R1Y07KRZTTAFTAZE.uasset'
+[2025.11.06-15.27.08:846][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/5R/ELYX46YFYHBCYWGDAAOGLL
+[2025.11.06-15.27.08:846][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/ELYX46YFYHBCYWGDAAOGLLC30124E943B11EA3A669F3A12FC212B9.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/5R/ELYX46YFYHBCYWGDAAOGLL.uasset'
+[2025.11.06-15.27.08:856][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/1O/DAIYEX9LE7U2DKJRWRCF2Y
+[2025.11.06-15.27.08:856][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/DAIYEX9LE7U2DKJRWRCF2Y5C200C174196004F9B5689A54501D21F.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/1O/DAIYEX9LE7U2DKJRWRCF2Y.uasset'
+[2025.11.06-15.27.08:866][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/KP/5ME2UGCRDREIT6NUU5RNV6
+[2025.11.06-15.27.08:866][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/5ME2UGCRDREIT6NUU5RNV65E1031DE401F04DC6673238041E3A79B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/KP/5ME2UGCRDREIT6NUU5RNV6.uasset'
+[2025.11.06-15.27.08:876][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/0J/2UDCWXMODLSOBSD8KUG8CI
+[2025.11.06-15.27.08:876][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/2UDCWXMODLSOBSD8KUG8CI1BD1CAA342191B54E671C6BF7B0C2EEE.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/0J/2UDCWXMODLSOBSD8KUG8CI.uasset'
+[2025.11.06-15.27.08:885][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/X6/9WSFRFPIV7QUIE5AT4DSKE
+[2025.11.06-15.27.08:885][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/9WSFRFPIV7QUIE5AT4DSKE6E07583B4E2100CBA730F2B5C6A2B53A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/X6/9WSFRFPIV7QUIE5AT4DSKE.uasset'
+[2025.11.06-15.27.08:895][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/25/5H8Y3RZZC3O0Y9S0KCH5TB
+[2025.11.06-15.27.08:895][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/5H8Y3RZZC3O0Y9S0KCH5TBF55CBB4B4AFDCF017033AC9A5766BC5C.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/25/5H8Y3RZZC3O0Y9S0KCH5TB.uasset'
+[2025.11.06-15.27.08:905][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/3J/10ZF4NBORCJFN0M5L7I1LP
+[2025.11.06-15.27.08:905][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/10ZF4NBORCJFN0M5L7I1LPB18B81EE456EE8CAF47BFB886CBC7502.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/3J/10ZF4NBORCJFN0M5L7I1LP.uasset'
+[2025.11.06-15.27.08:916][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/TP/8X2T0YPB5OK521AKZM859T
+[2025.11.06-15.27.08:916][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/8X2T0YPB5OK521AKZM859TA11A3CCD49E0C2CA5B0BFDABDE1765BF.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/TP/8X2T0YPB5OK521AKZM859T.uasset'
+[2025.11.06-15.27.08:925][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/90/G2E4ZML0FDL2CZ48NOZM33
+[2025.11.06-15.27.08:925][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/G2E4ZML0FDL2CZ48NOZM3348A9C88C45628977FCB17A8762B443D6.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/90/G2E4ZML0FDL2CZ48NOZM33.uasset'
+[2025.11.06-15.27.08:937][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/FO/YOHU2RGRP3VA7L3YCI7GI4
+[2025.11.06-15.27.08:937][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/YOHU2RGRP3VA7L3YCI7GI4A5B4DE9448A21A778CD30BBBDCE3F6A6.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/FO/YOHU2RGRP3VA7L3YCI7GI4.uasset'
+[2025.11.06-15.27.08:946][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/1K/BNO9A8KJWSN5CLLD571000
+[2025.11.06-15.27.08:946][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BNO9A8KJWSN5CLLD571000F38A7491445C1DEC73D3F2BEEB96E91E.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/1K/BNO9A8KJWSN5CLLD571000.uasset'
+[2025.11.06-15.27.08:956][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/T0/I94QV1ZYIDLM3F6ZQ9MQMJ
+[2025.11.06-15.27.08:956][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/I94QV1ZYIDLM3F6ZQ9MQMJA3CF89C149C91B6197279FAB3037CFC9.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/T0/I94QV1ZYIDLM3F6ZQ9MQMJ.uasset'
+[2025.11.06-15.27.08:965][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/AE/EUU4X5MINVMHAIVS2MHJKH
+[2025.11.06-15.27.08:965][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/EUU4X5MINVMHAIVS2MHJKH433D860C469528B7DFA00484BD872B1C.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/AE/EUU4X5MINVMHAIVS2MHJKH.uasset'
+[2025.11.06-15.27.08:976][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/4T/XS2X259OPHE28TVRAGBIGZ
+[2025.11.06-15.27.08:976][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/XS2X259OPHE28TVRAGBIGZFB0B52A442836DF6CAC2B1BB6A0A2086.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/4T/XS2X259OPHE28TVRAGBIGZ.uasset'
+[2025.11.06-15.27.08:987][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/6K/A7OB2P6ZXZXQMATBPCNEDA
+[2025.11.06-15.27.08:987][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/A7OB2P6ZXZXQMATBPCNEDAE90EA91B434ED4DFEB6E66A6C00D0989.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/6K/A7OB2P6ZXZXQMATBPCNEDA.uasset'
+[2025.11.06-15.27.08:996][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/07/JDOA5K9RHX6NBYZ451WSOO
+[2025.11.06-15.27.08:996][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/JDOA5K9RHX6NBYZ451WSOOF34F8B164BBF5780733A99B4C8ECD8E6.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/07/JDOA5K9RHX6NBYZ451WSOO.uasset'
+[2025.11.06-15.27.09:005][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/V1/83YQ32VKMT9E4Q0GCFMCA5
+[2025.11.06-15.27.09:005][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/83YQ32VKMT9E4Q0GCFMCA513CA438A4795ADDA3C0DDCB182BF2BDF.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/V1/83YQ32VKMT9E4Q0GCFMCA5.uasset'
+[2025.11.06-15.27.09:013][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/EH/3ZBRF44LTT9MC3YLVU7W8Q
+[2025.11.06-15.27.09:013][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/3ZBRF44LTT9MC3YLVU7W8QD962DDC54203D8E221234E9CA975ED3A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/EH/3ZBRF44LTT9MC3YLVU7W8Q.uasset'
+[2025.11.06-15.27.09:023][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/76/NEAFUVYD1CEGL6H0GMLDXL
+[2025.11.06-15.27.09:023][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/NEAFUVYD1CEGL6H0GMLDXLFD989C43445220A0A690DAA5BE4C3481.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/76/NEAFUVYD1CEGL6H0GMLDXL.uasset'
+[2025.11.06-15.27.09:033][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/3T/H6A57AJG1S4Y68LU04YCR5
+[2025.11.06-15.27.09:033][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/H6A57AJG1S4Y68LU04YCR5F209228643BB0C48F2CFB0AB6F81B403.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/3T/H6A57AJG1S4Y68LU04YCR5.uasset'
+[2025.11.06-15.27.09:044][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/CX/PJT62NWFUHNJ5RPV664V75
+[2025.11.06-15.27.09:044][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/PJT62NWFUHNJ5RPV664V75EBF4B5BF43A5DDA29FFAF48F49268F42.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/CX/PJT62NWFUHNJ5RPV664V75.uasset'
+[2025.11.06-15.27.09:053][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/BD/AX9V05VKMXPS5GLPJ1KU1W
+[2025.11.06-15.27.09:053][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/AX9V05VKMXPS5GLPJ1KU1W71936895461534CFDEDF9C9BE8A052E0.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/BD/AX9V05VKMXPS5GLPJ1KU1W.uasset'
+[2025.11.06-15.27.09:063][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/GA/OBPOMKHPLSYEGLCXBN5085
+[2025.11.06-15.27.09:063][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/OBPOMKHPLSYEGLCXBN50856650F62C400E46509869A4BCD593504E.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/GA/OBPOMKHPLSYEGLCXBN5085.uasset'
+[2025.11.06-15.27.09:073][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/0Y/2DJMDZ2E4LMWR7F6HXIFTZ
+[2025.11.06-15.27.09:073][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/2DJMDZ2E4LMWR7F6HXIFTZ6E557A464392BA394541FEB6589FF80F.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/0Y/2DJMDZ2E4LMWR7F6HXIFTZ.uasset'
+[2025.11.06-15.27.09:083][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/5A/II87E01DMGPLTU7JD5VUJQ
+[2025.11.06-15.27.09:083][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/II87E01DMGPLTU7JD5VUJQCA51706E49DF2BDABDF83689A98568F9.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/5A/II87E01DMGPLTU7JD5VUJQ.uasset'
+[2025.11.06-15.27.09:093][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/MD/VI4TJ51H6AK1ZTWQVNZUWG
+[2025.11.06-15.27.09:093][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/VI4TJ51H6AK1ZTWQVNZUWGC18A707F4C974288772C2A8D16A3BB2F.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/MD/VI4TJ51H6AK1ZTWQVNZUWG.uasset'
+[2025.11.06-15.27.09:103][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/EX/4S3N03CITW21QRVO7F4H9Y
+[2025.11.06-15.27.09:103][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/4S3N03CITW21QRVO7F4H9Y59495F8E4817293709168BA05CD280B5.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/EX/4S3N03CITW21QRVO7F4H9Y.uasset'
+[2025.11.06-15.27.09:114][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/C9/XS67342D10TTX0MBUVLPXJ
+[2025.11.06-15.27.09:114][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/XS67342D10TTX0MBUVLPXJ6755B6614AEAF309944778B6FB72332C.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/C9/XS67342D10TTX0MBUVLPXJ.uasset'
+[2025.11.06-15.27.09:123][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/L3/6GAPR8M6RN2MMRG3ERAVMY
+[2025.11.06-15.27.09:123][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/6GAPR8M6RN2MMRG3ERAVMY5C01FC724433040D17E46E96B2A6B0B3.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/L3/6GAPR8M6RN2MMRG3ERAVMY.uasset'
+[2025.11.06-15.27.09:133][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/31/8AGN4E3OXVLU0SEXE6CWO4
+[2025.11.06-15.27.09:133][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/8AGN4E3OXVLU0SEXE6CWO431B0EAEA463FA9504A26179C6DC92414.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/31/8AGN4E3OXVLU0SEXE6CWO4.uasset'
+[2025.11.06-15.27.09:142][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/FE/CS1TW454FQJLRP5IIJV3V9
+[2025.11.06-15.27.09:142][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/CS1TW454FQJLRP5IIJV3V96EA3836D41F04134CCF83D9B24235AE0.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/FE/CS1TW454FQJLRP5IIJV3V9.uasset'
+[2025.11.06-15.27.09:153][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/CJ/TCIP94IUPWDUGX625OT0YZ
+[2025.11.06-15.27.09:153][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/TCIP94IUPWDUGX625OT0YZC39BF3AE4883A4DA7E53BCB329F54743.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/CJ/TCIP94IUPWDUGX625OT0YZ.uasset'
+[2025.11.06-15.27.09:162][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/FQ/41XQ0NEE1IHHK6ZQ53DWZP
+[2025.11.06-15.27.09:162][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/41XQ0NEE1IHHK6ZQ53DWZPA1CA19D340321F3874FDC0855DB3EAEF.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/FQ/41XQ0NEE1IHHK6ZQ53DWZP.uasset'
+[2025.11.06-15.27.09:172][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/M0/74SKYJDZ8BX185XI39J92H
+[2025.11.06-15.27.09:172][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/74SKYJDZ8BX185XI39J92HAB2A91DF4F3C74D3773E118DC9230B0B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/M0/74SKYJDZ8BX185XI39J92H.uasset'
+[2025.11.06-15.27.09:181][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/76/F75UBU6GURSMM38JHFK8EP
+[2025.11.06-15.27.09:181][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/F75UBU6GURSMM38JHFK8EP6CE9ADF94EFE3FAB03D80D8CE5115D4B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/76/F75UBU6GURSMM38JHFK8EP.uasset'
+[2025.11.06-15.27.09:191][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/UB/JXM0ISFDKF16YFZMZ6EAII
+[2025.11.06-15.27.09:191][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/JXM0ISFDKF16YFZMZ6EAIIA19201B945F4E93B5548628584C86176.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/UB/JXM0ISFDKF16YFZMZ6EAII.uasset'
+[2025.11.06-15.27.09:201][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/9M/7OL5Q28XI2QWBU6WU1U5RN
+[2025.11.06-15.27.09:201][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/7OL5Q28XI2QWBU6WU1U5RN4F19E9AE4DDA3831D7E1AAB6391EA49B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/9M/7OL5Q28XI2QWBU6WU1U5RN.uasset'
+[2025.11.06-15.27.09:211][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/Q8/EN2KJU6HBVOSOLU3VH2QI6
+[2025.11.06-15.27.09:211][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/EN2KJU6HBVOSOLU3VH2QI6427130404269C082739E22A6C773EFDB.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/Q8/EN2KJU6HBVOSOLU3VH2QI6.uasset'
+[2025.11.06-15.27.09:221][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/8L/LB4FXWRLJE908J6KM4V99U
+[2025.11.06-15.27.09:221][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/LB4FXWRLJE908J6KM4V99UA0DED29F494370D0F86A1181048AF79F.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/8L/LB4FXWRLJE908J6KM4V99U.uasset'
+[2025.11.06-15.27.09:230][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/6Y/156PQ0SOI8K9IVO6CYFYN1
+[2025.11.06-15.27.09:230][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/156PQ0SOI8K9IVO6CYFYN10AE63F1C427B60C59A93A3B992CE438E.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/6Y/156PQ0SOI8K9IVO6CYFYN1.uasset'
+[2025.11.06-15.27.09:239][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/GW/S88BZRKPR4OUMQ0Z0E6LGR
+[2025.11.06-15.27.09:239][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/S88BZRKPR4OUMQ0Z0E6LGR21A7DFE84E941FA9AE00B9A4F8D08F70.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/GW/S88BZRKPR4OUMQ0Z0E6LGR.uasset'
+[2025.11.06-15.27.09:249][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/CJ/MGF0B9AYYUU4AQTOJB1AVF
+[2025.11.06-15.27.09:249][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/MGF0B9AYYUU4AQTOJB1AVFD18D6E1949E62664A051CDB05989EC32.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/CJ/MGF0B9AYYUU4AQTOJB1AVF.uasset'
+[2025.11.06-15.27.09:258][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/D8/UK63D34C5IGMLL47GOLFK6
+[2025.11.06-15.27.09:258][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/UK63D34C5IGMLL47GOLFK6D67EBD004F5479FEBA71FFA9F8AF8715.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/D8/UK63D34C5IGMLL47GOLFK6.uasset'
+[2025.11.06-15.27.09:268][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/JW/I26RUZF33FXD03QOHF2MEC
+[2025.11.06-15.27.09:268][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/I26RUZF33FXD03QOHF2MEC8426D42B4405A539E62914A768E613C2.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/JW/I26RUZF33FXD03QOHF2MEC.uasset'
+[2025.11.06-15.27.09:277][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/5V/FFXVDRHTBHYYURNR683O0L
+[2025.11.06-15.27.09:277][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/FFXVDRHTBHYYURNR683O0L53ED85E94FEA56899BB328B872F423AF.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/5V/FFXVDRHTBHYYURNR683O0L.uasset'
+[2025.11.06-15.27.09:286][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/P3/4F5CGO4WI3SHY8UUT2KB46
+[2025.11.06-15.27.09:286][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/4F5CGO4WI3SHY8UUT2KB46814BA6904D022FE4B7D52A9E4FC1DD16.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/P3/4F5CGO4WI3SHY8UUT2KB46.uasset'
+[2025.11.06-15.27.09:296][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/B9/96LPNEO0PX0HRMTLIMW1KN
+[2025.11.06-15.27.09:296][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/96LPNEO0PX0HRMTLIMW1KN6DCA512B48E4C49825F48AA828080580.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/B9/96LPNEO0PX0HRMTLIMW1KN.uasset'
+[2025.11.06-15.27.09:306][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/DG/A12I0PQVC76IFZ3M1QODCK
+[2025.11.06-15.27.09:306][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/A12I0PQVC76IFZ3M1QODCKD13CFA8440B8E992B9BC9FBEA6CE784E.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/DG/A12I0PQVC76IFZ3M1QODCK.uasset'
+[2025.11.06-15.27.09:316][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/XR/GQGYJE9VMIL1YPAAHEXLW7
+[2025.11.06-15.27.09:316][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/GQGYJE9VMIL1YPAAHEXLW77187B0F74E09CBD074D33097ABED205D.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/XR/GQGYJE9VMIL1YPAAHEXLW7.uasset'
+[2025.11.06-15.27.09:326][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/V3/37XT2E7YDE509ZTGN7BY46
+[2025.11.06-15.27.09:327][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/37XT2E7YDE509ZTGN7BY4670F2AFFE43FDAB4E8AA03A8E8713FFB3.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/V3/37XT2E7YDE509ZTGN7BY46.uasset'
+[2025.11.06-15.27.09:337][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/C5/QXBQVBRBDZCT6F2BFXPD4G
+[2025.11.06-15.27.09:337][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/QXBQVBRBDZCT6F2BFXPD4GD0F69BCC401A74966EBD5486C6F43F3B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/C5/QXBQVBRBDZCT6F2BFXPD4G.uasset'
+[2025.11.06-15.27.09:346][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/HM/H1SVU0Z4A46LFPEQ2XB3WJ
+[2025.11.06-15.27.09:346][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/H1SVU0Z4A46LFPEQ2XB3WJ6D41DF924C67934A6FB9EE85982B5289.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/HM/H1SVU0Z4A46LFPEQ2XB3WJ.uasset'
+[2025.11.06-15.27.09:354][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/JR/T47FOVYE2KOMQAKXIBLV8V
+[2025.11.06-15.27.09:354][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/T47FOVYE2KOMQAKXIBLV8VABA96A434C92F9CA810518BD405845D0.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/JR/T47FOVYE2KOMQAKXIBLV8V.uasset'
+[2025.11.06-15.27.09:364][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/6J/01M97ICCWKUNWPV95Y0OJK
+[2025.11.06-15.27.09:364][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/01M97ICCWKUNWPV95Y0OJKA02EB29C4F06BD618513FBACE83C4E03.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/6J/01M97ICCWKUNWPV95Y0OJK.uasset'
+[2025.11.06-15.27.09:373][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/2R/XIGY6GSQMQ7XHVA8BIABXK
+[2025.11.06-15.27.09:373][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/XIGY6GSQMQ7XHVA8BIABXK824AF0A74F9DACFA6765AD821491A92D.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/2R/XIGY6GSQMQ7XHVA8BIABXK.uasset'
+[2025.11.06-15.27.09:383][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/AV/7WIUPV54C1DW7Y1KC7PLMG
+[2025.11.06-15.27.09:383][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/7WIUPV54C1DW7Y1KC7PLMGC88A22644BE67961C512C1A4B92E69D9.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/AV/7WIUPV54C1DW7Y1KC7PLMG.uasset'
+[2025.11.06-15.27.09:394][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/XI/4ZW77OHA2KT6NPA9S0EPS2
+[2025.11.06-15.27.09:394][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/4ZW77OHA2KT6NPA9S0EPS21569F2FB4DB681744BBB84BB1D0F6D9B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/XI/4ZW77OHA2KT6NPA9S0EPS2.uasset'
+[2025.11.06-15.27.09:403][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/ML/R0C9ULHZS6QS9CYFUYT2M4
+[2025.11.06-15.27.09:403][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/R0C9ULHZS6QS9CYFUYT2M4B3DF511042F47207BDF020B39F394C21.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/ML/R0C9ULHZS6QS9CYFUYT2M4.uasset'
+[2025.11.06-15.27.09:413][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/A6/6VM8HU01SN1PD1ZVE4WF2G
+[2025.11.06-15.27.09:413][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/6VM8HU01SN1PD1ZVE4WF2GB6AAC3734DE4F928710C239D9D42C7CD.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/A6/6VM8HU01SN1PD1ZVE4WF2G.uasset'
+[2025.11.06-15.27.09:423][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/MZ/TSI4PUHC5N3LPZFFD6HB4E
+[2025.11.06-15.27.09:423][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/TSI4PUHC5N3LPZFFD6HB4ED7C3F3AD46CEF3136EA5A98786D46B21.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/MZ/TSI4PUHC5N3LPZFFD6HB4E.uasset'
+[2025.11.06-15.27.09:432][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/EZ/7WRS49EAWFGMLU53KD0G90
+[2025.11.06-15.27.09:432][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/7WRS49EAWFGMLU53KD0G90662F796347F0F14D5C743D80D1044111.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/EZ/7WRS49EAWFGMLU53KD0G90.uasset'
+[2025.11.06-15.27.09:442][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/3S/36W82RS3HA093RVZED388U
+[2025.11.06-15.27.09:442][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/36W82RS3HA093RVZED388U6009449247582C3F8DD97DBC5A74C086.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/3S/36W82RS3HA093RVZED388U.uasset'
+[2025.11.06-15.27.09:451][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/9V/JHZWKO9ZTGDH04JVBVZJSE
+[2025.11.06-15.27.09:451][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/JHZWKO9ZTGDH04JVBVZJSEA17A0E664E8D06E5AFF2FC85879F7DA0.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/9V/JHZWKO9ZTGDH04JVBVZJSE.uasset'
+[2025.11.06-15.27.09:461][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/5Y/HNMGLH1J2FNZEDMWA2UN2E
+[2025.11.06-15.27.09:461][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/HNMGLH1J2FNZEDMWA2UN2E8A57A5124045A74D97785C979551A57E.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/5Y/HNMGLH1J2FNZEDMWA2UN2E.uasset'
+[2025.11.06-15.27.09:470][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/7F/GW87LP5KR339JEV7NPXNGX
+[2025.11.06-15.27.09:470][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/GW87LP5KR339JEV7NPXNGXF7957096420F8CE3974514B532E07E9D.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/7F/GW87LP5KR339JEV7NPXNGX.uasset'
+[2025.11.06-15.27.09:480][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/EH/WF11ZV7SSOY31NTB9KKH0P
+[2025.11.06-15.27.09:480][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/WF11ZV7SSOY31NTB9KKH0P59981F6D4253D496A5629B8051B3B34E.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/EH/WF11ZV7SSOY31NTB9KKH0P.uasset'
+[2025.11.06-15.27.09:488][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/ZG/8Q270V92WE125Q9TA49G94
+[2025.11.06-15.27.09:488][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/8Q270V92WE125Q9TA49G944326FF28444ECFF46C60F1AF40E4DD60.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/ZG/8Q270V92WE125Q9TA49G94.uasset'
+[2025.11.06-15.27.09:499][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/S3/AU5BV4DPDSVSP7HRUU30Z1
+[2025.11.06-15.27.09:499][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/AU5BV4DPDSVSP7HRUU30Z11D3D0A4E477F64A9D2D4F2AA2CBBB3C0.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/S3/AU5BV4DPDSVSP7HRUU30Z1.uasset'
+[2025.11.06-15.27.09:509][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/FR/3PIA35MC14B1AR50OSULRX
+[2025.11.06-15.27.09:509][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/3PIA35MC14B1AR50OSULRX1DF934624961E4926492809980A820CA.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/FR/3PIA35MC14B1AR50OSULRX.uasset'
+[2025.11.06-15.27.09:521][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/0J/2ANAJWI5MDGDH419K47G5A
+[2025.11.06-15.27.09:521][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/2ANAJWI5MDGDH419K47G5AB5D9C8FB47FFDD317EFA32AB636682FF.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/0J/2ANAJWI5MDGDH419K47G5A.uasset'
+[2025.11.06-15.27.09:530][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/R3/T4XUS1WI8C5BAMQAMLQATJ
+[2025.11.06-15.27.09:530][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/T4XUS1WI8C5BAMQAMLQATJBFAF785644076AA21BD2489C6A176956.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/R3/T4XUS1WI8C5BAMQAMLQATJ.uasset'
+[2025.11.06-15.27.09:540][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/N9/4OOMBT92MS7YXD6CQ9EEGY
+[2025.11.06-15.27.09:540][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/4OOMBT92MS7YXD6CQ9EEGY8269B3314790F9C7F9D89C9FA7CA5B63.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/N9/4OOMBT92MS7YXD6CQ9EEGY.uasset'
+[2025.11.06-15.27.09:550][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/L4/YJQIIXUWBIN5E9ULUK96DM
+[2025.11.06-15.27.09:550][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/YJQIIXUWBIN5E9ULUK96DM6283DF7C4B4BA519D0D410B0F85FCD97.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/L4/YJQIIXUWBIN5E9ULUK96DM.uasset'
+[2025.11.06-15.27.09:560][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/BS/PURX5QKS1V5ZHGO1EFQ2M0
+[2025.11.06-15.27.09:560][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/PURX5QKS1V5ZHGO1EFQ2M055A1762147F8C82446CB36B01A8F51EB.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/BS/PURX5QKS1V5ZHGO1EFQ2M0.uasset'
+[2025.11.06-15.27.09:569][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/0I/XUVF9URFD5W85PKH37KKZZ
+[2025.11.06-15.27.09:569][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/XUVF9URFD5W85PKH37KKZZ65468B564EA8FEECFFE07F8BC10B75D8.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/0I/XUVF9URFD5W85PKH37KKZZ.uasset'
+[2025.11.06-15.27.09:579][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/WD/BUP86RU1W1MJ1KV8IULOSE
+[2025.11.06-15.27.09:579][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/BUP86RU1W1MJ1KV8IULOSE6606888C4F0CA435998FCD9F0DA29F45.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/WD/BUP86RU1W1MJ1KV8IULOSE.uasset'
+[2025.11.06-15.27.09:588][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/JE/MQA1854HFIEZI8XS2GRI6E
+[2025.11.06-15.27.09:588][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/MQA1854HFIEZI8XS2GRI6EDBFD15D54DA30BCD3237DBAB63AC09EC.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/JE/MQA1854HFIEZI8XS2GRI6E.uasset'
+[2025.11.06-15.27.09:598][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/E6/6AWD3WCRPOJAJ78LTTPKE0
+[2025.11.06-15.27.09:598][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/6AWD3WCRPOJAJ78LTTPKE0522165F44D322B71E5FEA1A2D29DC72B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/E6/6AWD3WCRPOJAJ78LTTPKE0.uasset'
+[2025.11.06-15.27.09:608][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/IV/T48OZD9WVGOBHKLXP92FWY
+[2025.11.06-15.27.09:608][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/T48OZD9WVGOBHKLXP92FWY8EB067B748B1AEDBEEC6C7934E709083.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/IV/T48OZD9WVGOBHKLXP92FWY.uasset'
+[2025.11.06-15.27.09:618][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/F9/JC6B5ETVI6LCULUMBYHM98
+[2025.11.06-15.27.09:618][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/JC6B5ETVI6LCULUMBYHM984238CB334A6AB18823810A91F1DECBA1.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/F9/JC6B5ETVI6LCULUMBYHM98.uasset'
+[2025.11.06-15.27.09:628][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/RG/RASKZB9JNHI9PSQKND2EAV
+[2025.11.06-15.27.09:628][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/RASKZB9JNHI9PSQKND2EAV796ACF614A8DA88A55450A9295A86639.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/RG/RASKZB9JNHI9PSQKND2EAV.uasset'
+[2025.11.06-15.27.09:637][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/VF/1P79U4ET4I99YABJ0713CN
+[2025.11.06-15.27.09:637][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/1P79U4ET4I99YABJ0713CN8A1FE5E24506311CC82DAA933156C56F.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/VF/1P79U4ET4I99YABJ0713CN.uasset'
+[2025.11.06-15.27.09:646][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/3Y/EVBEFAZVIRYEV6ITDBOIUW
+[2025.11.06-15.27.09:646][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/EVBEFAZVIRYEV6ITDBOIUW65EA3C2240393FF554CB04AE9AB2C43B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/3Y/EVBEFAZVIRYEV6ITDBOIUW.uasset'
+[2025.11.06-15.27.09:656][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/1H/ML4HWESMP640N84J3EF7IT
+[2025.11.06-15.27.09:657][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/ML4HWESMP640N84J3EF7ITF88C7C074F5F9EA6EEF9CB8AFE476F9F.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/1H/ML4HWESMP640N84J3EF7IT.uasset'
+[2025.11.06-15.27.09:666][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/DK/LUR1CKG8BDYLAWVWLXLLMT
+[2025.11.06-15.27.09:666][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/LUR1CKG8BDYLAWVWLXLLMTB590747748254EF9D0027E994A3D8D34.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/DK/LUR1CKG8BDYLAWVWLXLLMT.uasset'
+[2025.11.06-15.27.09:676][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/IV/ZGCQWDZQCQGSGY44EESSQQ
+[2025.11.06-15.27.09:676][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/ZGCQWDZQCQGSGY44EESSQQ2868B57048406BE8DEE389B18EF44F8A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/IV/ZGCQWDZQCQGSGY44EESSQQ.uasset'
+[2025.11.06-15.27.09:685][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/Z1/1NIM55Z2XSP9NUFZUQ8CP6
+[2025.11.06-15.27.09:685][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/1NIM55Z2XSP9NUFZUQ8CP62FC338A3476E7862C2DD8D9BD444796A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/Z1/1NIM55Z2XSP9NUFZUQ8CP6.uasset'
+[2025.11.06-15.27.09:695][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/P5/1CGZNBF3HLVROARVEDVKTG
+[2025.11.06-15.27.09:695][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/1CGZNBF3HLVROARVEDVKTG46038A7C434CDC622C12F7A805F64563.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/P5/1CGZNBF3HLVROARVEDVKTG.uasset'
+[2025.11.06-15.27.09:704][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/AF/X5X6YTGE5EU3CS94E8SF5I
+[2025.11.06-15.27.09:704][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/X5X6YTGE5EU3CS94E8SF5I85BA5FA042E8DD67779BDB81A261184E.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/AF/X5X6YTGE5EU3CS94E8SF5I.uasset'
+[2025.11.06-15.27.09:713][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/4R/8QPMYGOVBKWG46NE7JKOW4
+[2025.11.06-15.27.09:713][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/8QPMYGOVBKWG46NE7JKOW4BFF207C14E61E3ED9AB481B62B9C0F2A.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/4R/8QPMYGOVBKWG46NE7JKOW4.uasset'
+[2025.11.06-15.27.09:725][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/YA/Y3HQL9A0Z63XV7I61B1M3B
+[2025.11.06-15.27.09:725][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/Y3HQL9A0Z63XV7I61B1M3BFB12E8E24EF65836BF5A1DA91811CBAC.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/YA/Y3HQL9A0Z63XV7I61B1M3B.uasset'
+[2025.11.06-15.27.09:735][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/E5/RX1FRYSXF2FTLL5J2XZIHT
+[2025.11.06-15.27.09:735][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/RX1FRYSXF2FTLL5J2XZIHTF1043020455F51A1ABD854A097441961.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/E5/RX1FRYSXF2FTLL5J2XZIHT.uasset'
+[2025.11.06-15.27.09:745][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/YA/UR9NWF6V3E8T2UOICOVAN6
+[2025.11.06-15.27.09:745][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/UR9NWF6V3E8T2UOICOVAN6470EF9754B5626DB316A07A3F90FF8F2.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/YA/UR9NWF6V3E8T2UOICOVAN6.uasset'
+[2025.11.06-15.27.09:755][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/7V/7II1ANVMB1HZV1YKDCME74
+[2025.11.06-15.27.09:755][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/7II1ANVMB1HZV1YKDCME742D47C48D44004AA65D55CD8B0435478D.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/7V/7II1ANVMB1HZV1YKDCME74.uasset'
+[2025.11.06-15.27.09:765][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/FV/X5X67YVKO1SDBRKKJ5J8VM
+[2025.11.06-15.27.09:765][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/X5X67YVKO1SDBRKKJ5J8VMA60C5F6A4C926A477D8F43BB6B74B7A8.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/FV/X5X67YVKO1SDBRKKJ5J8VM.uasset'
+[2025.11.06-15.27.09:775][616]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/T2/DO51QOZEZ8RCQOIIDRS8CK
+[2025.11.06-15.27.09:775][616]LogSavePackage: Moving '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/DO51QOZEZ8RCQOIIDRS8CK234DFC664556D8BE08E5DCA068AFA38B.tmp' to '../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/T2/DO51QOZEZ8RCQOIIDRS8CK.uasset'
+[2025.11.06-15.27.09:789][616]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.96 sec (total: 3.45 sec)
+[2025.11.06-15.27.09:894][616]LogContentValidation: Display: Starting to validate 180 assets
+[2025.11.06-15.27.09:894][616]LogContentValidation: Enabled validators:
+[2025.11.06-15.27.09:894][616]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-15.27.09:894][616]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-15.27.09:894][616]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-15.27.09:894][616]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-15.27.09:894][616]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-15.27.09:894][616]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-15.27.09:896][616]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2025.11.06-15.27.09:950][616]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/usuario/Documents/GitHub/Scripting1_Proyect/Scripting1_Proyect/Saved/SourceControl/UncontrolledChangelists.json
+[2025.11.06-15.27.17:513][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.11.06-15.27.17:577][ 59]LogStall: Shutdown...
+[2025.11.06-15.27.17:577][ 59]LogStall: Shutdown complete.
+[2025.11.06-15.27.17:613][ 59]LogSlate: Window 'Lvl_ThirdPerson' being destroyed
+[2025.11.06-15.27.17:625][ 59]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-15.27.17:625][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-15.27.17:676][ 59]LogSlate: Window 'Scripting1_Proyect - Unreal Editor' being destroyed
+[2025.11.06-15.27.17:678][ 59]LogWindowsTextInputMethodSystem: Activated input method: Español (España, internacional) - (Keyboard).
+[2025.11.06-15.27.17:941][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.11.06-15.27.17:955][ 60]Cmd: QUIT_EDITOR
+[2025.11.06-15.27.17:956][ 60]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.11.06-15.27.17:961][ 60]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.11.06-15.27.17:962][ 60]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.11.06-15.27.17:962][ 60]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.11.06-15.27.17:965][ 60]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-15.27.17:966][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-15.27.17:966][ 60]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.11.06-15.27.17:975][ 60]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.11.06-15.27.17:975][ 60]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.11.06-15.27.17:976][ 60]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.11.06-15.27.17:986][ 60]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-15.27.17:986][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-15.27.17:989][ 60]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-15.27.17:989][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-15.27.17:991][ 60]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-15.27.17:992][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-15.27.17:994][ 60]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.11.06-15.27.17:994][ 60]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.11.06-15.27.18:003][ 60]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.11.06-15.27.18:180][ 60]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.11.06-15.27.18:180][ 60]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.11.06-15.27.18:180][ 60]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2025.11.06-15.27.18:180][ 60]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.11.06-15.27.18:180][ 60]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.11.06-15.27.18:183][ 60]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.11.06-15.27.18:195][ 60]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.11.06-15.27.18:195][ 60]LogAudio: Display: Audio Device Manager Shutdown
+[2025.11.06-15.27.18:204][ 60]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.11.06-15.27.18:205][ 60]LogExit: Preparing to exit.
+[2025.11.06-15.27.18:300][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.11.06-15.27.18:308][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:308][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:309][ 60]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.06-15.27.18:712][ 60]LogEditorDataStorage: Deinitializing
+[2025.11.06-15.27.18:870][ 60]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.11.06-15.27.18:913][ 60]LogExit: Editor shut down
+[2025.11.06-15.27.18:920][ 60]LogExit: Transaction tracking system shut down
+[2025.11.06-15.27.19:118][ 60]LogExit: Object subsystem successfully closed.
+[2025.11.06-15.27.19:195][ 60]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.11.06-15.27.19:287][ 60]LogMemoryProfiler: Shutdown
+[2025.11.06-15.27.19:287][ 60]LogNetworkingProfiler: Shutdown
+[2025.11.06-15.27.19:287][ 60]LoadingProfiler: Shutdown
+[2025.11.06-15.27.19:287][ 60]LogTimingProfiler: Shutdown
+[2025.11.06-15.27.19:288][ 60]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.11.06-15.27.19:288][ 60]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.11.06-15.27.19:649][ 60]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.11.06-15.27.19:649][ 60]LogNFORDenoise: NFORDenoise function shutting down
+[2025.11.06-15.27.19:650][ 60]RenderDocPlugin: plugin has been unloaded.
+[2025.11.06-15.27.19:660][ 60]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.11.06-15.27.19:660][ 60]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9DCC1F7B-432C-888E-0496-DF8FBEF33858%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=78130af748626f3f9e2007bc00722cce%7Cbe10b8e813da496c8a8b71a6ca13e862%7C03b2d8e4-5ef3-4a86-9ca0-0734e2398942&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.11.06-15.27.20:217][ 60]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.11.06-15.27.20:226][ 60]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.11.06-15.27.20:226][ 60]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.11.06-15.27.20:226][ 60]LogPakFile: Destroying PakPlatformFile
+[2025.11.06-15.27.20:858][ 60]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.11.06-15.27.20:922][ 60]LogExit: Exiting.
+[2025.11.06-15.27.20:951][ 60]Log file closed, 11/06/25 16:27:20
